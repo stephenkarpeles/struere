@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: white;
+  font-family: $sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  animation: fade-in-1 .75s ease;
+}
+
+.home {
+   background: url('../img/banners/banner-1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

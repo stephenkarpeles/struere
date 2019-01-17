@@ -1,0 +1,46 @@
+// Default Font Stacks
+$sans-serif: 'Rubik', Helvetica, Arial, sans-serif;
+$serif: 'Noto Serif', Georgia, serif;
+
+// Colors
+$color-1: #6b4097;
+$color-2: #B94690;
+$color-3: #EF5F7C;
+$color-4: #FF8C65;
+$color-5: #FFC15A;
+$color-6: #F9F871;
+
+$color-1-dark: darken($color-1, 5%);
+$color-2-dark: darken($color-2, 5%);
+$color-3-dark: darken($color-3, 5%);
+$color-4-dark: darken($color-4, 5%);
+$color-5-dark: darken($color-5, 5%);
+$color-6-dark: darken($color-6, 5%);
+
+$text-color-main: #4d4d4d;
+$text-color-light: #aaaaaa;
+
+// Grays
+$gray-light-1: #f8f8f8;
+$gray-light-2: #b4c5cf;
+
+// Layout
+$container-width: 90%;
+$container-max-width: 1120px;
+$section-padding: 40px;
+$container-small-max-width: 840px;
+$viewport-switch: calc(#{$container-max-width}/.9);
+
+// Admin Bar
+$wpadmin-bar-height: 32px;
+$wpadmin-bar-height-mobile: 46px;
+
+// Keyframes
+@keyframes fade-in-1 {   
+  0% {     
+    opacity: 0;   
+  }    
+  100% {
+    opacity: 1;
+  }
+}
