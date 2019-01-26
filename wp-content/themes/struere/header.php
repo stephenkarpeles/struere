@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'struere' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header class="header">
 		<div class="site-branding">
 			<?php
 			the_custom_logo();
@@ -53,6 +53,6 @@
 			) );
 			?>
 		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->
+	</header>
 
-	<div id="content" class="site-content">
+	<main>
