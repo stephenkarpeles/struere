@@ -22,8 +22,7 @@
   height: 100%;
   width: 70px;
   // width: 100%;
-  background: #000;
-  opacity: 0.8;
+  background: rgba(0, 0, 0, .6);
   padding-bottom: 0;
   // padding-bottom: 30px;
 }
@@ -32,8 +31,8 @@
   position: absolute;
   bottom: 0px;
   width: 70px;
-  height: 100%;
-  top: 0;
+  height: calc(100% - 70px); // minus height of header
+  bottom: 0;
   // width: 100%;
   // height: 60px;
 }
@@ -42,8 +41,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #000;
-  opacity: 0.4;
+  background: rgba(0, 0, 0, .6);
 }
 
 #content_holder #home_slider #home_slider_thumbs {
@@ -62,8 +60,8 @@
 #content_holder #home_slider #home_slider_thumbs div {
   position: relative;
   margin: 3px auto;
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   background-position: center;
   background-size: cover;
   -webkit-background-size: cover;

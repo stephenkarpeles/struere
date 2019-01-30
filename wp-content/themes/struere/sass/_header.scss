@@ -1,3 +1,35 @@
 .header {
-  display: none;
+  position: fixed;
+  z-index: 999;
+  background: rgba(0, 0, 0, .6);
+  width: 100%;
+  top: 0;
+  height: 70px;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    img {
+      width: 200px;
+    }
+  }
+
+  &__nav {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+      margin: 0 0 0 20px;
+    }
+
+    a {
+      color: white;
+    }
+  }
 }
