@@ -1,10 +1,10 @@
 .header {
   position: fixed;
   z-index: 999;
-  background: rgba(0, 0, 0, .6);
+  background: rgba($color-2, .7);
   width: 100%;
   top: 0;
-  height: 70px;
+  height: 100px;
   padding: 20px 70px;
   display: flex;
   justify-content: space-between;
@@ -26,10 +26,33 @@
       display: inline-block;
       list-style-type: none;
       margin: 0 0 0 20px;
+      position: relative;
+
+      &:before {
+        content: '|';
+        position: absolute;
+        left: -15px;
+        display: block;
+        color: white;
+      }
+
+      &:first-child {
+        &:before {
+          content: '';
+          display: none;
+        }
+      }
     }
 
     a {
       color: white;
+      text-transform: uppercase;
+      font-family: $sans-serif-bold;
+
+      &:hover,
+      &:focus {
+        color: $color-1;
+      }
     }
   }
 }
