@@ -26,7 +26,7 @@
 
 	<header class="header">
 		<div class="header__logo">
-			<a href="">
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri();?>/img/logo-white.png" alt="Struere">
 			</a>
 		</div>

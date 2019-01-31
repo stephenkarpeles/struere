@@ -1,5 +1,44 @@
+.homepage {
+  &__intro {
+    position: fixed;
+    z-index: 9999;
+    right: 15px;
+    background: rgba(255, 255, 255, .8);
+    width: 370px;
+    padding: 25px 30px;
+    bottom: 30px;
+
+    &.in-view {
+      animation: home-intro-animation .75s ease-in forwards;
+    }
+
+    @keyframes home-intro-animation {
+      0% {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+
+      100% {
+        transform: translateX(0px);
+        opacity: 1;
+      }
+    }
+
+    p {
+      line-height: 1.2;
+      font-size: 17px;
+      padding: 0;
+      margin: 0;
+    }
+
+    strong {
+      font-family: $sans-serif-bold;
+    }
+  }
+}
+
 #content_holder_bg {
-  background: none!important;
+  background: none !important;
 }
 
 #content_holder {
@@ -75,13 +114,32 @@
   border: solid 1px #fff;
 }
 
+#content_holder #home_slider .img_name,
+#content_holder #home_slider .img_caption {
+  &.in-view {
+    animation: home-caption-animation .75s ease-in forwards;
+  }
+
+  @keyframes home-caption-animation {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+}
+
 #content_holder #home_slider .img_name {
   position: absolute;
   bottom: 30px;
-  left: 20px;
+  left: 15px;
   max-width: 100%;
   background: rgba($color-1, .85);
-  padding: 20px 20px 37px 20px;
+  padding: 18px 20px 35px 20px;
   min-width: 300px;
   text-transform: uppercase;
   line-height: 1.4;
@@ -90,14 +148,14 @@
 
 #content_holder #home_slider .img_caption {
   position: absolute;
-  bottom: 20px;
+  bottom: 17px;
   font-size: 13px;
   right: 30px;
   bottom: 50px;
   left: 20px;
   max-width: 100%;
   min-width: 300px;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 15px;
   line-height: 1.4;
 }
 
@@ -105,6 +163,20 @@
   position: fixed;
   width: 100%;
   height: 100%;
+
+  &.in-view {
+    animation: slide-bg-animation 2s ease-in forwards;
+  }
+
+  @keyframes slide-bg-animation {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 }
 
 #slide_bg div {

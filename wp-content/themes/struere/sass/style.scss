@@ -6,6 +6,7 @@
 
 // Foundational
 @import 'base';
+@import 'general';
 @import 'typography';
 // @import 'buttons';
 // @import 'forms';
@@ -27,6 +28,8 @@
 // @import 'related-posts';
 
 // Pages
+@import 'pages/about';
+@import 'pages/awards';
 @import 'pages/homepage';
-// @import 'post';
-// 
+@import 'pages/portfolio';
+@import 'pages/publications';

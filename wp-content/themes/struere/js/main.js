@@ -1,3 +1,40 @@
+// Animations
+document.addEventListener('DOMContentLoaded', () => {
+
+  /**
+   * Add animations using IntersectionObserver when elements are scrolled to
+   */
+  function animateElements(entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+      }
+      // Uncomment the lines below if you want the animation to run every time it scrolls into view (not just the first time)
+      // else {
+      //   entry.target.classList.remove('in-view');
+      // }
+    });
+  }
+
+  function initObserver() {
+    const observer = new IntersectionObserver(animateElements);
+    const items = document.querySelectorAll('.img_name, .img_caption, .homepage__intro, #slide_bg');
+    for(let i in items) {
+      if(!items.hasOwnProperty(i)) {
+        continue;
+      }
+      observer.observe(items[i]);
+    }
+  }
+
+  if (window.IntersectionObserver) {
+    initObserver();
+  }
+
+}, false);
+
+
+// Homepage slider
 (function($) {
   
   $('#home_slider_thumbs div').click(function(){

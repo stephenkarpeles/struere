@@ -11,8 +11,15 @@
   align-items: center;
 
   &__logo {
+    transition: all .25s ease;
+    
     img {
       width: 200px;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: .8;
     }
   }
 
