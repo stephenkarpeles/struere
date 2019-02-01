@@ -165,7 +165,7 @@
   height: 100%;
 
   &.in-view {
-    animation: slide-bg-animation 2s ease-in forwards;
+    animation: slide-bg-animation 1.25s ease-in forwards;
   }
 
   @keyframes slide-bg-animation {

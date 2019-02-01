@@ -19,7 +19,8 @@ body {
 body {
   background: white;
   font-family: "franklingothic-book", Helvetica, Arial, sans-serif;
-  color: #333333; }
+  color: #333333;
+  line-height: 1.375; }
 
 img {
   display: block;
@@ -98,13 +99,37 @@ input[type="submit"],
   src: url("../fonts/franklingothic-demiit-webfont.woff2") format("woff2"), url("../fonts/franklingothic-demiit-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  font-family: "franklingothic-demi", Georgia, serif;
+  line-height: 1.1; }
+
+h1 {
+  font-size: 38px;
+  font-family: "franklingothic-demi", Georgia, serif;
+  margin-bottom: 1rem; }
+
 p {
   margin: 0;
+  padding-top: 0;
   padding-bottom: 1.5rem; }
+
+b,
+strong {
+  font-family: "franklingothic-demi", Georgia, serif; }
+
+i,
+em {
+  font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
+
+.container {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto; }
 
 .header {
   position: fixed;
-  z-index: 999;
+  z-index: 9000;
   background: rgba(55, 81, 126, 0.7);
   width: 100%;
   top: 0;
@@ -144,12 +169,62 @@ p {
       color: #fd2e2e; }
 
 .about {
-  background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg");
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  color: white; }
+  .about__bg {
+    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .about__bg:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7); }
+  .about section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000; }
+    .about section:first-of-type {
+      margin-top: 150px; }
+  .about__company-info {
+    -webkit-columns: 3 250px;
+    -moz-columns: 3 250px;
+    columns: 3 250px; }
+    .about__company-info h1 {
+      column-span: all;
+      text-transform: uppercase;
+      position: relative;
+      margin-bottom: 50px; }
+      .about__company-info h1:before {
+        position: absolute;
+        content: '';
+        background: white;
+        width: 70px;
+        height: 5px;
+        left: 0;
+        bottom: -25px; }
+    .about__company-info h2 {
+      font-family: "franklingothic-book", Helvetica, Arial, sans-serif;
+      text-transform: uppercase; }
+    .about__company-info p {
+      display: inline-block;
+      padding-bottom: 1.25rem;
+      font-size: 17px; }
+      .about__company-info p.intro {
+        font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif;
+        font-size: 19px; }
 
 .awards {
   background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg");
@@ -284,7 +359,7 @@ p {
   width: 100%;
   height: 100%; }
   #slide_bg.in-view {
-    animation: slide-bg-animation 2s ease-in forwards; }
+    animation: slide-bg-animation 1.25s ease-in forwards; }
 @keyframes slide-bg-animation {
   0% {
     opacity: 0; }

@@ -1,8 +1,78 @@
 .about {
-  background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg');
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: white;
+
+  &__bg {
+    background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(black, .7);
+    }
+  }
+
+  section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000;
+
+    &:first-of-type {
+      margin-top: 150px;
+    }
+  }
+
+  &__company-info {
+    -webkit-columns: 3 250px;
+       -moz-columns: 3 250px;
+            columns: 3 250px;
+
+    h1 {
+      column-span: all;
+      text-transform: uppercase;
+      position: relative;
+      margin-bottom: 50px;
+
+      &:before {
+        position: absolute;
+        content: '';
+        background: white;
+        width: 70px;
+        height: 5px;
+        left: 0;
+        bottom: -25px;
+      }
+    }
+
+    h2 {
+      font-family: $sans-serif;
+      text-transform: uppercase;
+    }
+
+    p {
+      display: inline-block;
+      padding-bottom: 1.25rem;
+      font-size: 17px;
+
+      &.intro {
+        font-family: $sans-serif-italic;
+        font-size: 19px;
+      }
+    }
+  }
 }
