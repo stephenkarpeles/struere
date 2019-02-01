@@ -1,5 +1,6 @@
 .about {
   color: white;
+  overflow: hidden;
 
   &__bg {
     background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg');
@@ -74,5 +75,75 @@
         font-size: 19px;
       }
     }
+  }
+}
+
+.hraztan {
+  margin-top: 40px;
+  background: rgba($color-1, .65);
+  padding: 65px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-family: $sans-serif-bold;
+    font-size: 38px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    width: 290px;
+    max-width: 100%;
+    position: relative;
+
+    img {
+      // box-shadow: 1px 1px 0 rgba(white, 1);
+    }
+  }
+
+  &__text {
+    width: calc(100% - 290px);
+    padding-left: 40px;
+    column-count: 2;
+  }
+}
+
+.silva {
+  margin-top: 0;
+  background: rgba($color-4, .65);
+  padding: 65px 0;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__name {
+    font-family: $sans-serif-bold;
+    font-size: 38px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  &__image {
+    width: 290px;
+    max-width: 100%;
+    position: relative;
+
+    img {
+      // box-shadow: 1px 1px 0 rgba(white, 1);
+    }
+  }
+
+  &__text {
+    width: calc(100% - 290px);
+    padding-right: 40px;
+    column-count: 2;
   }
 }

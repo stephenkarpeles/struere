@@ -114,6 +114,12 @@ p {
   padding-top: 0;
   padding-bottom: 1.5rem; }
 
+a {
+  color: white;
+  transition: all .15s ease; }
+  a:hover, a:focus {
+    opacity: .8; }
+
 b,
 strong {
   font-family: "franklingothic-demi", Georgia, serif; }
@@ -169,7 +175,8 @@ em {
       color: #fd2e2e; }
 
 .about {
-  color: white; }
+  color: white;
+  overflow: hidden; }
   .about__bg {
     background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg");
     position: fixed;
@@ -225,6 +232,50 @@ em {
       .about__company-info p.intro {
         font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif;
         font-size: 19px; }
+
+.hraztan {
+  margin-top: 40px;
+  background: rgba(253, 46, 46, 0.65);
+  padding: 65px 0; }
+  .hraztan .container {
+    display: flex;
+    justify-content: space-between; }
+  .hraztan__name {
+    font-family: "franklingothic-demi", Georgia, serif;
+    font-size: 38px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 1rem; }
+  .hraztan__image {
+    width: 290px;
+    max-width: 100%;
+    position: relative; }
+  .hraztan__text {
+    width: calc(100% - 290px);
+    padding-left: 40px;
+    column-count: 2; }
+
+.silva {
+  margin-top: 0;
+  background: rgba(107, 80, 151, 0.65);
+  padding: 65px 0; }
+  .silva .container {
+    display: flex;
+    justify-content: space-between; }
+  .silva__name {
+    font-family: "franklingothic-demi", Georgia, serif;
+    font-size: 38px;
+    display: block;
+    line-height: 1;
+    margin-bottom: 1rem; }
+  .silva__image {
+    width: 290px;
+    max-width: 100%;
+    position: relative; }
+  .silva__text {
+    width: calc(100% - 290px);
+    padding-right: 40px;
+    column-count: 2; }
 
 .awards {
   background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg");

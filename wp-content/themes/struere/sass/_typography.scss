@@ -48,6 +48,16 @@ p {
   padding-bottom: 1.5rem;
 }
 
+a {
+  color: white;
+  transition: all .15s ease;
+
+  &:hover,
+  &:focus {
+    opacity: .8;
+  }
+}
+
 b,
 strong {
   font-family: $sans-serif-bold;
