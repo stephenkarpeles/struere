@@ -168,3 +168,51 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 show_admin_bar( false );
 
+/**
+ * Register Custom Post Types
+ */ 
+/**
+ * Register a custom post type called "portfolio_item".
+ *
+ * @see get_post_type_labels() for label keys.
+ */
+// function portfolio_init() {
+//     $labels = array(
+//         'name'                  => _x( 'Portfolio Items', 'Post type general name', 'textdomain' ),
+//         'singular_name'         => _x( 'Portfolio Item', 'Post type singular name', 'textdomain' ),
+//         'menu_name'             => _x( 'Portfolio', 'Admin Menu text', 'textdomain' ),
+//         'name_admin_bar'        => _x( 'Portfolio', 'Add New on Toolbar', 'textdomain' ),
+//         'add_new'               => __( 'Add New', 'textdomain' ),
+//         'add_new_item'          => __( 'Add New Portfolio Item', 'textdomain' ),
+//         'new_item'              => __( 'New Portfolio Item', 'textdomain' ),
+//         'edit_item'             => __( 'Edit Portfolio Item', 'textdomain' ),
+//         'view_item'             => __( 'View Portfolio Item', 'textdomain' ),
+//         'all_items'             => __( 'All Portfolio Items', 'textdomain' ),
+//         'search_items'          => __( 'Search Portfolio', 'textdomain' ),
+//         'parent_item_colon'     => __( 'Parent Portfolio Items:', 'textdomain' ),
+//         'not_found'             => __( 'No portfolio items found.', 'textdomain' ),
+//         'not_found_in_trash'    => __( 'No portfolio items found in Trash.', 'textdomain' ),
+//     );
+ 
+//     $args = array(
+//         'labels'             => $labels,
+//         'public'             => true,
+//         'publicly_queryable' => true,
+//         'show_ui'            => true,
+//         'show_in_menu'       => true,
+//         'query_var'          => true,
+//         'rewrite'            => array( 'slug' => 'portfolio-item' ),
+//         'capability_type'    => 'post',
+//         'has_archive'        => true,
+//         'menu_icon'          => 'dashicons-format-image',
+//         'hierarchical'       => false,
+//         'menu_position'      => 5,
+//         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
+//     );
+ 
+//     register_post_type( 'portfolio_item', $args );
+// }
+ 
+// add_action( 'init', 'portfolio_init' );
+
+

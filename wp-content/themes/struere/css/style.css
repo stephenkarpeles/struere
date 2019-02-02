@@ -173,6 +173,8 @@ em {
     font-family: "franklingothic-demi", Georgia, serif; }
     .header__nav a:hover, .header__nav a:focus {
       color: #fd2e2e; }
+  .header__nav .current_page_item a {
+    color: #fd2e2e; }
 
 .about {
   color: white;
@@ -250,6 +252,8 @@ em {
     width: 290px;
     max-width: 100%;
     position: relative; }
+    .hraztan__image img {
+      border: 1px solid white; }
   .hraztan__text {
     width: calc(100% - 290px);
     padding-left: 40px;
@@ -272,18 +276,38 @@ em {
     width: 290px;
     max-width: 100%;
     position: relative; }
+    .silva__image img {
+      border: 1px solid white; }
   .silva__text {
     width: calc(100% - 290px);
     padding-right: 40px;
     column-count: 2; }
 
 .awards {
-  background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg");
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  color: white;
+  overflow: hidden; }
+  .awards__bg {
+    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .awards__bg:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7); }
 
 .homepage__intro {
   position: fixed;
@@ -432,12 +456,48 @@ em {
   opacity: 1; }
 
 .portfolio {
-  background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner5.jpg");
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  color: white;
+  overflow: hidden; }
+  .portfolio__bg {
+    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner5.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .portfolio__bg:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7); }
+  .portfolio h1 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 50px; }
+    .portfolio h1:before {
+      position: absolute;
+      content: '';
+      background: white;
+      width: 70px;
+      height: 5px;
+      left: 0;
+      bottom: -25px; }
+  .portfolio section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000; }
+    .portfolio section:first-of-type {
+      margin-top: 150px; }
 
 .publications {
   background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg");

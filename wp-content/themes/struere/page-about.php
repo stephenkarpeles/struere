@@ -59,7 +59,15 @@ get_header();
   <section class="silva">
     <div class="container">
       <div class="silva__text">
-        <p><span class="silva__name">Silva Zeitlian</span> is the Founder and Design Principal of STRUERE Architecture, Los Angeles. He leads design conceptualization and strategy, in addition to overseeing all aspects of the practice. Hraztan brings high-energy design leadership focused on creating Award Winning, sophisticated/innovative design solutions, with a strong collaborative connection to multiple Market Sectors, Disciplines, management goals and technical execution. Prior to STRUERE, Hraztan was Design Leader of DLR Group WWCOT, Director of Design of Leo A Dalys Los Angeles Office and was Director of Design of Genslers Los Angeles offices Entertainment Studio 1. His work experience includes SOM and JohnsonFain.</p>
+        <p><span class="silva__name">Silva Zeitlian</span> is Design Principal for Interior Architecture. She leads the design of all interior spaces and is Practice Leader for Interiors.</p> 
+
+        <p>Silva believes in creating dynamic interior public spaces of interaction, workplace environments that enhance communication and encourage creative synergies, and inviting, comforting spaces of play and relaxation.</p> 
+
+        <p>Silva has more than 25 years of experience in interior architecture and a focus on high design, truly unique and at the same time functional environments reflecting clients’ goals. Her approach reflects her deep commitment to design and to innovative solutions. Silva has extensive experience both nationally and internationally, with projects ranging from corporate headquarters to creative workplaces. Silva’s work puts special focus on creating wellness inspired environments. She is WELL AP certified professional in addition to being an NCIDQ certified interior design.</p>
+
+        <p>She has received design awards from the International Interior Design Association (IIDA) Southern California Chapter, AIA San Fernando Valley Chapter and from the Design Build Institute of America (DBIA) for the new Family Support Center in Los Angeles Valley, and from the National Association of Industrial and Office Properties for the interiors of KPMG Tower in McLean, Virginia.</p> 
+
+        <p>Silva Has received A Bachelor of Architecture and A Bachelor of Fine Arts from the Rhode Island School of Design.</p> 
       </div>
       <div class="silva__image">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/silva.jpg" alt="Hraztan Zeitlian">
