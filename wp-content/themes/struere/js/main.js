@@ -1,6 +1,5 @@
 // Animations
 document.addEventListener('DOMContentLoaded', () => {
-
   /**
    * Add animations using IntersectionObserver when elements are scrolled to
    */
@@ -34,72 +33,53 @@ document.addEventListener('DOMContentLoaded', () => {
 }, false);
 
 
-// Homepage slider
-(function($) {
-  
-  $('#home_slider_thumbs div').click(function(){
+// Isotope filters
+var iso = new Isotope( '.grid', {
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows'
+});
 
-      var img_src = $(this).attr('img_src'),
-          name    = $(this).attr('name'),
-          caption = $(this).attr('caption');
+// filter functions
+var filterFns = {
+  // show if number is greater than 50
+  numberGreaterThan50: function( itemElem ) {
+    var number = itemElem.querySelector('.number').textContent;
+    return parseInt( number, 10 ) > 50;
+  },
+  // show if name ends with -ium
+  ium: function( itemElem ) {
+    var name = itemElem.querySelector('.name').textContent;
+    return name.match( /ium$/ );
+  }
+};
 
-      $('#home_slider_thumbs div').removeClass('active');
-      $(this).addClass('active');
+// bind filter button click
+var filtersElem = document.querySelector('.filters-button-group');
+filtersElem.addEventListener( 'click', function( event ) {
+  // only work with buttons
+  if ( !matchesSelector( event.target, 'button' ) ) {
+    return;
+  }
+  var filterValue = event.target.getAttribute('data-filter');
+  // use matching filter function
+  filterValue = filterFns[ filterValue ] || filterValue;
+  iso.arrange({ filter: filterValue });
+});
 
-      $('.img_name').text(name);
-      $('.img_caption').text(caption);
+// change is-checked class on buttons
+var buttonGroups = document.querySelectorAll('.button-group');
+for ( var i=0, len = buttonGroups.length; i < len; i++ ) {
+  var buttonGroup = buttonGroups[i];
+  radioButtonGroup( buttonGroup );
+}
 
-      $('#slide_bg div.active').animate({opacity: 0}, 1000).removeClass('active');
-      $('#slide_bg div[img_src="' + img_src + '"]').show().animate({opacity: 1}, 1000).addClass('active');
-
-      window.clearTimeout(timeout);      
-
-      timeout = window.setTimeout(function()
-      {
-        changeSlideBG();
-      }, 4000);
-      
-    });
-
-  
-
-    /*home slider*/
-    setTimeout(function changeSlideBG()
-    {
-      var bg_active     = $('#slide_bg div.active'),
-          bg_next       = $(bg_active).next('div'),
-          bg_first      = $('#slide_bg div').first(),
-          thumb_active  = $('#home_slider #home_slider_thumbs div.active'),
-          thumb_next    = $(thumb_active).next('div'),
-          thumb_first   = $('#home_slider #home_slider_thumbs div').first();
-  
-      $(bg_active).animate({opacity: 0}, 1000).removeClass('active');
-      $(thumb_active).removeClass('active');
-      
-      if(bg_next.length != 0) {
-        $(bg_next).animate({opacity: 1}, 1000).addClass('active');
-        $(thumb_next).addClass('active');
-        $(bg_next).next('div').show();
-      }
-
-      else {
-        $(bg_first).animate({opacity: 1}, 1000).addClass('active');
-        $(thumb_first).addClass('active');
-      }  
-      
-      var name    = $('#home_slider_thumbs div.active').attr('name'),
-          caption = $('#home_slider_thumbs div.active').attr('caption');
-
-      $('.img_name').text(name);
-      $('.img_caption').text(caption);
-
-      timeout = window.setTimeout(function()
-      {
-        changeSlideBG();
-      }, 4000);
-  
-    }, 4000);
-
-    changeSlideBG();
-  
-})( jQuery );
+function radioButtonGroup( buttonGroup ) {
+  buttonGroup.addEventListener( 'click', function( event ) {
+    // only work with buttons
+    if ( !matchesSelector( event.target, 'button' ) ) {
+      return;
+    }
+    buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
+    event.target.classList.add('is-checked');
+  });
+}
