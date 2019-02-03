@@ -107,6 +107,10 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   cursor: pointer;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 #content_holder #home_slider #home_slider_thumbs div.active,

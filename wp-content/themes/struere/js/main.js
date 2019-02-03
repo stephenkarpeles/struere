@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // Isotope filters
-var iso = new Isotope( '.grid', {
-  itemSelector: '.element-item',
+var iso = new Isotope( '.portfolio-grid', {
+  itemSelector: '.portfolio-item',
   layoutMode: 'fitRows'
 });
 
