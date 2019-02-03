@@ -135,6 +135,57 @@ get_header();
               </div>    
             </div>        
           </div><!-- /.portfolio-item -->
+
+          <div class="portfolio-item arts" data-category="arts">
+            <div class="portfolio-item__img-wrap">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/civic/el-monte/1.jpg" alt="El Monte">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title">
+                <h3>City of South El Monte Civic Center Masterplan</h3>  
+              </div>
+              <div class="portfolio-item__caption">
+                <p>South El Monte, CA</p>
+              </div>
+              <div class="portfolio-item__cta">
+                <a href="" class="btn">View Project</a>
+              </div>    
+            </div>        
+          </div><!-- /.portfolio-item -->
+
+          <div class="portfolio-item religion" data-category="religion">
+            <div class="portfolio-item__img-wrap">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/civic/el-monte/1.jpg" alt="El Monte">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title">
+                <h3>City of South El Monte Civic Center Masterplan</h3>  
+              </div>
+              <div class="portfolio-item__caption">
+                <p>South El Monte, CA</p>
+              </div>
+              <div class="portfolio-item__cta">
+                <a href="" class="btn">View Project</a>
+              </div>    
+            </div>        
+          </div><!-- /.portfolio-item -->
+
+          <div class="portfolio-item residential" data-category="residential">
+            <div class="portfolio-item__img-wrap">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/portfolio/civic/el-monte/1.jpg" alt="El Monte">
+            </div>
+            <div class="portfolio-item__content">
+              <div class="portfolio-item__title">
+                <h3>City of South El Monte Civic Center Masterplan</h3>  
+              </div>
+              <div class="portfolio-item__caption">
+                <p>South El Monte, CA</p>
+              </div>
+              <div class="portfolio-item__cta">
+                <a href="" class="btn">View Project</a>
+              </div>    
+            </div>        
+          </div><!-- /.portfolio-item -->
           
         </div>
 
