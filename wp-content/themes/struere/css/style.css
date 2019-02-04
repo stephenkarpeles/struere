@@ -223,6 +223,9 @@ em {
   margin-right: 1px; }
 
 /* ---- isotope ---- */
+.portfolio-grid {
+  margin-bottom: 60px; }
+
 /* clear fix */
 .portfolio-grid:after {
   content: '';
@@ -237,6 +240,12 @@ em {
   margin-right: 3.33%;
   margin-bottom: 35px;
   display: block; }
+  @media screen and (max-width: 1023px) {
+    .portfolio-item {
+      width: 310px; } }
+  @media screen and (max-width: 479px) {
+    .portfolio-item {
+      width: 100%; } }
   .portfolio-item__content {
     padding: 15px 20px 17px;
     border-bottom: 1px solid white;
@@ -244,7 +253,8 @@ em {
     color: white;
     overflow: hidden;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 147px; }
   .portfolio-item__img-wrap img {
     width: 100%;
     height: 190px;

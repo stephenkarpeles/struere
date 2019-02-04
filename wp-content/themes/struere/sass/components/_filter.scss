@@ -58,6 +58,7 @@
 
 .portfolio-grid {
   // border: 1px solid #333;
+  margin-bottom: 60px;
 }
 
 /* clear fix */
@@ -79,6 +80,14 @@
   margin-bottom: 35px;
   display: block;
 
+  @include mq(desktop, 'max-width') {
+    width: 310px;
+  }
+
+  @include mq(mobile-landscape, 'max-width') {
+    width: 100%;
+  }
+
   &__content {
     padding: 15px 20px 17px;
     border-bottom: 1px solid white;
@@ -87,6 +96,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 147px;
   }
 
   &__img-wrap { 
