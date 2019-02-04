@@ -412,6 +412,62 @@ em {
       left: 0;
       right: 0;
       background: rgba(0, 0, 0, 0.7); }
+  .awards h1 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 70px;
+    text-align: right; }
+    .awards h1:before {
+      position: absolute;
+      content: '';
+      background: white;
+      width: 70px;
+      height: 5px;
+      right: 0;
+      bottom: -25px; }
+  .awards section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000; }
+    .awards section:first-of-type {
+      margin-top: 150px; }
+  .awards__list {
+    text-align: right;
+    font-size: 43px;
+    margin-bottom: 80px;
+    font-family: "franklingothic-demi", Georgia, serif; }
+    .awards__list ul {
+      margin: 0;
+      padding: 0; }
+    .awards__list li {
+      list-style-type: none;
+      line-height: 1.1;
+      margin-bottom: 55px;
+      width: 90%;
+      margin-left: 10%; }
+      .awards__list li.in-view {
+        animation: awards-list-animation .8s ease-in forwards; }
+@keyframes awards-list-animation {
+  0% {
+    transform: translateX(-150px); }
+  100% {
+    transform: translateX(0px); } }
+      .awards__list li span {
+        color: #fd2e2e;
+        margin-right: 20px;
+        font-size: 52px;
+        display: inline-block; }
+    @media screen and (max-width: 767px) {
+      .awards__list {
+        font-size: 28px; }
+        .awards__list li span {
+          font-size: 34px; } }
+    @media screen and (max-width: 479px) {
+      .awards__list {
+        font-size: 28px; }
+        .awards__list li {
+          width: 100%;
+          margin-left: 0; } }
 
 .homepage__intro {
   position: fixed;

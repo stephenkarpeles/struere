@@ -51,7 +51,7 @@ get_header();
         <p>Hraztan believes in advancing design through research and experimental pursuits.</p>
         <p>Hraztan has a Masters in Advanced Architectural Design from Columbia University and a Bachelor of Architecture from the Rhode Island School. He has studied Architecture at the American University of Beirut.</p>
         <p>Foreign Languages include French, Armenian, and familiarity with Arabic.</p>
-        <p><a href="#" target="_blank"><strong>AWARDS PRIOR TO STRUERE &raquo;</strong></a></p>
+        <p><a href="<?php echo get_site_url(); ?>/awards/" target="_blank"><strong>AWARDS PRIOR TO STRUERE &raquo;</strong></a></p>
       </div>
     </div>
   </section>

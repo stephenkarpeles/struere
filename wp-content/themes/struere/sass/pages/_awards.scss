@@ -27,4 +27,91 @@
       background: rgba(black, .7);
     }
   }
+
+  h1 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 70px;
+    text-align: right;
+
+     &:before {
+      position: absolute;
+      content: '';
+      background: white;
+      width: 70px;
+      height: 5px;
+      right: 0;
+      bottom: -25px;
+    }
+  }
+
+  section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000;
+
+    &:first-of-type {
+      margin-top: 150px;
+    }
+  }
+
+  &__list {
+    text-align: right;
+    font-size: 43px;
+    margin-bottom: 80px;
+    font-family: $sans-serif-bold;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      line-height: 1.1;
+      margin-bottom: 55px;
+      width: 90%;
+      margin-left: 10%;
+
+      &.in-view {
+        animation: awards-list-animation .8s ease-in forwards;
+      }
+
+      @keyframes awards-list-animation {
+        0% {
+          transform: translateX(-150px);
+        }
+
+        100% {
+          transform: translateX(0px);
+        }
+      }
+
+      span {
+        color: $color-1;
+        margin-right: 20px;
+        font-size: 52px;
+        display: inline-block;
+      }
+    }
+
+    @include mq(ipad, 'max-width') {
+      font-size: 28px;
+
+      li {
+        span {
+          font-size: 34px;
+        }
+      }
+    }
+
+    @include mq(mobile-landscape, 'max-width') {
+      font-size: 28px;
+
+      li {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+  }
 }
