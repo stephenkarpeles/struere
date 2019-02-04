@@ -117,7 +117,7 @@ p {
 a {
   color: white;
   transition: all .15s ease; }
-  a:hover, a:focus {
+  a:hover {
     opacity: .8; }
 
 b,
@@ -434,7 +434,7 @@ em {
   .awards__list {
     text-align: right;
     font-size: 43px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-family: "franklingothic-demi", Georgia, serif; }
     .awards__list ul {
       margin: 0;
@@ -449,7 +449,7 @@ em {
         animation: awards-list-animation .8s ease-in forwards; }
 @keyframes awards-list-animation {
   0% {
-    transform: translateX(-150px); }
+    transform: translateX(-120px); }
   100% {
     transform: translateX(0px); } }
       .awards__list li span {
@@ -661,12 +661,114 @@ em {
     .portfolio section:first-of-type {
       margin-top: 150px; }
 
-.publications {
+.publications__bg {
   background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg");
   position: fixed;
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+  .publications__bg:after {
+    position: absolute;
+    z-index: 500;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6); }
+.publications h1 {
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 60px;
+  color: white; }
+  .publications h1:before {
+    position: absolute;
+    content: '';
+    background: white;
+    width: 70px;
+    height: 5px;
+    left: 0;
+    bottom: -25px; }
+.publications h2 {
+  color: white;
+  position: absolute;
+  left: -115px;
+  top: 12px;
+  text-transform: uppercase; }
+.publications section {
+  animation: fade-in-1 1.5s ease;
+  position: relative;
+  z-index: 1000; }
+  .publications section .container {
+    position: relative; }
+  .publications section:first-of-type {
+    margin-top: 150px; }
+.publications__list ul {
+  margin: 0;
+  padding: 0; }
+.publications__list li {
+  list-style-type: none;
+  display: block;
+  margin-bottom: 30px; }
+  .publications__list li.in-view {
+    animation: publications-list-animation .5s ease-in forwards; }
+@keyframes publications-list-animation {
+  0% {
+    transform: translateX(-20px); }
+  100% {
+    transform: translateX(0px); } }
+  .publications__list li a {
+    display: inline-block;
+    line-height: 1.15;
+    padding: 12px 15px;
+    background: rgba(253, 46, 46, 0.9);
+    color: white;
+    font-family: "franklingothic-demi", Georgia, serif;
+    font-size: 22px;
+    box-shadow: 4px 4px 0 white;
+    transition: all .75s ease; }
+    .publications__list li a span {
+      font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
+    .publications__list li a:hover {
+      box-shadow: none;
+      opacity: 1;
+      transform: translateX(10px); }
+.publications__print-list {
+  margin-top: 60px;
+  margin-bottom: 80px; }
+  .publications__print-list ul {
+    margin: 0;
+    padding: 0; }
+  .publications__print-list li {
+    list-style-type: none; }
+    .publications__print-list li.in-view {
+      animation: publications-list-animation .5s ease-in forwards; }
+@keyframes publications-list-animation {
+  0% {
+    transform: translateX(-20px); }
+  100% {
+    transform: translateX(0px); } }
+    .publications__print-list li div {
+      display: inline-block;
+      color: white;
+      line-height: 1.15;
+      padding: 12px 15px;
+      background: rgba(51, 51, 51, 0.95);
+      color: white;
+      font-family: "franklingothic-demi", Georgia, serif;
+      font-size: 22px;
+      box-shadow: 4px 4px 0 white;
+      transition: all .75s ease;
+      margin-bottom: 30px;
+      width: auto; }
+    .publications__print-list li span {
+      font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

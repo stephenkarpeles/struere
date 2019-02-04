@@ -52,8 +52,7 @@ a {
   color: white;
   transition: all .15s ease;
 
-  &:hover,
-  &:focus {
+  &:hover {
     opacity: .8;
   }
 }

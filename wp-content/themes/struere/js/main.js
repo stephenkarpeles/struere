@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function initObserver() {
     const observer = new IntersectionObserver(animateElements);
-    const items = document.querySelectorAll('.img_name, .img_caption, .homepage__intro, #slide_bg, .awards__list li');
+    const items = document.querySelectorAll('.img_name, .img_caption, .homepage__intro, #slide_bg, .awards__list li, .publications__list li, .publications__print-list li');
     for(let i in items) {
       if(!items.hasOwnProperty(i)) {
         continue;

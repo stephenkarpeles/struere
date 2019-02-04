@@ -1,8 +1,163 @@
 .publications {
-  background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg');
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+  &__bg {
+    background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(black, .6);
+    }
+  }
+
+  h1 {
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 60px;
+    color: white;
+
+     &:before {
+      position: absolute;
+      content: '';
+      background: white;
+      width: 70px;
+      height: 5px;
+      left: 0;
+      bottom: -25px;
+    }
+  }
+
+  h2 {
+    color: white;
+    position: absolute;
+    left: -115px;
+    top: 12px;
+    text-transform: uppercase;
+  }
+
+  section {
+    animation: fade-in-1 1.5s ease;
+    position: relative;
+    z-index: 1000;
+
+    .container {
+      position: relative;
+    }
+
+    &:first-of-type {
+      margin-top: 150px;
+    }
+  }
+
+  &__list {
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+      display: block;
+      margin-bottom: 30px;
+
+      &.in-view {
+        animation: publications-list-animation .5s ease-in forwards;
+      }
+
+      @keyframes publications-list-animation {
+        0% {
+          transform: translateX(-20px);
+        }
+
+        100% {
+          transform: translateX(0px);
+        }
+      }
+
+      a {
+        display: inline-block;
+        line-height: 1.15;
+        padding: 12px 15px;
+        background: rgba($color-1, .9);
+        color: white;
+        font-family: $sans-serif-bold;
+        font-size: 22px;
+        box-shadow: 4px 4px 0 rgba(white, 1);
+        transition: all .75s ease;
+
+        span {
+          font-family: $sans-serif-italic;
+        }
+
+        &:hover {
+          box-shadow: none;
+          opacity: 1;
+          transform: translateX(10px);
+        }
+      }
+    }
+  }
+
+  &__print-list {
+    margin-top: 60px;
+    margin-bottom: 80px;
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      list-style-type: none;
+
+      &.in-view {
+        animation: publications-list-animation .5s ease-in forwards;
+      }
+
+      @keyframes publications-list-animation {
+        0% {
+          transform: translateX(-20px);
+        }
+
+        100% {
+          transform: translateX(0px);
+        }
+      }      
+
+      div {
+        display: inline-block;
+        color: white;
+        line-height: 1.15;
+        padding: 12px 15px;
+        background: rgba(#333, .95);
+        color: white;
+        font-family: $sans-serif-bold;
+        font-size: 22px;
+        box-shadow: 4px 4px 0 rgba(white, 1);
+        transition: all .75s ease;
+        margin-bottom: 30px;
+        width: auto;
+      }
+
+      span {
+        font-family: $sans-serif-italic;
+      }
+    }
+  }
 }

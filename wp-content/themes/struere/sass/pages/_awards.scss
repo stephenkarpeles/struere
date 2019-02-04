@@ -58,7 +58,7 @@
   &__list {
     text-align: right;
     font-size: 43px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
     font-family: $sans-serif-bold;
 
     ul {
@@ -79,7 +79,7 @@
 
       @keyframes awards-list-animation {
         0% {
-          transform: translateX(-150px);
+          transform: translateX(-120px);
         }
 
         100% {
