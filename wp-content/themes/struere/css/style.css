@@ -168,8 +168,9 @@ em {
       content: '';
       display: none; }
   .header__nav a {
+    font-size: 17px;
     color: white;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: "franklingothic-demi", Georgia, serif; }
     .header__nav a:hover, .header__nav a:focus {
       color: #fd2e2e; }
@@ -661,6 +662,8 @@ em {
     .portfolio section:first-of-type {
       margin-top: 150px; }
 
+.publications .container {
+  max-width: 940px; }
 .publications__bg {
   background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg");
   position: fixed;
@@ -699,7 +702,7 @@ em {
 .publications h2 {
   color: white;
   position: absolute;
-  left: -115px;
+  left: -110px;
   top: 12px;
   text-transform: uppercase; }
 .publications section {

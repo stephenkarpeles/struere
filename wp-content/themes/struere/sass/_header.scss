@@ -52,8 +52,9 @@
     }
 
     a {
+      font-size: 17px;
       color: white;
-      text-transform: uppercase;
+      text-transform: none;
       font-family: $sans-serif-bold;
 
       &:hover,

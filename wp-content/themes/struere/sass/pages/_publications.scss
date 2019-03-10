@@ -1,5 +1,9 @@
 .publications {
 
+  .container {
+    max-width: 940px;
+  }
+
   &__bg {
     background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg');
     position: fixed;
@@ -46,7 +50,7 @@
   h2 {
     color: white;
     position: absolute;
-    left: -115px;
+    left: -110px;
     top: 12px;
     text-transform: uppercase;
   }
