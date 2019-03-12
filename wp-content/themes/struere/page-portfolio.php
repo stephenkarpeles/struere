@@ -51,7 +51,15 @@ get_header();
               $location = get_field('location');
               ?>
 
-                <div class="portfolio-item civic" data-category="civic">
+                <div class="portfolio-item <?php 
+                  $term_list = wp_get_post_terms($post->ID, 'project-category', array("fields" => "all"));
+                  foreach($term_list as $term_single) {
+                  echo $term_single->slug; 
+                } ?>" data-category="<?php 
+                  $term_list = wp_get_post_terms($post->ID, 'project-category', array("fields" => "all"));
+                  foreach($term_list as $term_single) {
+                  echo $term_single->slug; 
+                } ?>">
                   <div class="portfolio-item__img-wrap">
                     <a href="<?php the_permalink(); ?>">
                       <?php the_post_thumbnail(); ?>
