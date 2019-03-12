@@ -842,4 +842,48 @@ em {
     .publications__print-list li span {
       font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
 
+.single-project {
+  background: #333; }
+
+.project-post {
+  color: white;
+  margin-top: 170px; }
+  .project-post a {
+    color: white; }
+  .project-post__content {
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (max-width: 767px) {
+      .project-post__content {
+        flex-direction: column; } }
+  .project-post__col-left {
+    width: 65%; }
+    @media screen and (max-width: 859px) {
+      .project-post__col-left {
+        width: 50%; } }
+    @media screen and (max-width: 767px) {
+      .project-post__col-left {
+        width: 100%;
+        margin: 0 auto 25px; } }
+  .project-post__col-right {
+    width: 32%; }
+    @media screen and (max-width: 859px) {
+      .project-post__col-right {
+        width: 45%; } }
+    @media screen and (max-width: 767px) {
+      .project-post__col-right {
+        width: 100%;
+        margin: 0 auto; } }
+  .project-post__image img {
+    object-fit: cover;
+    height: 500px;
+    width: 100%; }
+  .project-post__back-link {
+    margin-top: 100px; }
+    .project-post__back-link a {
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase; }
+
 /*# sourceMappingURL=style.css.map */
