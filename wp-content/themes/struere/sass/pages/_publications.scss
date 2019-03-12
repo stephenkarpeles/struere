@@ -98,11 +98,11 @@
         display: inline-block;
         line-height: 1.15;
         padding: 12px 15px;
-        background: rgba($color-1, .9);
-        color: white;
+        background: rgba(white, .7);
+        color: lighten($text-color-main, 5%);
         font-family: $sans-serif-bold;
         font-size: 22px;
-        box-shadow: 4px 4px 0 rgba(white, 1);
+        // box-shadow: 4px 4px 0 rgba(white, 1);
         transition: all .75s ease;
 
         span {
@@ -119,7 +119,7 @@
   }
 
   &__print-list {
-    margin-top: 60px;
+    margin-top: 10px;
     margin-bottom: 80px;
 
     ul {
@@ -149,11 +149,11 @@
         color: white;
         line-height: 1.15;
         padding: 12px 15px;
-        background: rgba(#333, .95);
-        color: white;
+        background: rgba(white, .7);
+        color: lighten($text-color-main, 5%);
         font-family: $sans-serif-bold;
         font-size: 22px;
-        box-shadow: 4px 4px 0 rgba(white, 1);
+        // box-shadow: 4px 4px 0 rgba(white, 1);
         transition: all .75s ease;
         margin-bottom: 30px;
         width: auto;

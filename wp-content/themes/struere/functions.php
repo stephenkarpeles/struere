@@ -174,51 +174,81 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  */
 show_admin_bar( false );
 
+
 /**
- * Register Custom Post Types
- */ 
-/**
- * Register a custom post type called "portfolio_item".
- *
- * @see get_post_type_labels() for label keys.
+ * Register custom post types
  */
-// function portfolio_init() {
-//     $labels = array(
-//         'name'                  => _x( 'Portfolio Items', 'Post type general name', 'textdomain' ),
-//         'singular_name'         => _x( 'Portfolio Item', 'Post type singular name', 'textdomain' ),
-//         'menu_name'             => _x( 'Portfolio', 'Admin Menu text', 'textdomain' ),
-//         'name_admin_bar'        => _x( 'Portfolio', 'Add New on Toolbar', 'textdomain' ),
-//         'add_new'               => __( 'Add New', 'textdomain' ),
-//         'add_new_item'          => __( 'Add New Portfolio Item', 'textdomain' ),
-//         'new_item'              => __( 'New Portfolio Item', 'textdomain' ),
-//         'edit_item'             => __( 'Edit Portfolio Item', 'textdomain' ),
-//         'view_item'             => __( 'View Portfolio Item', 'textdomain' ),
-//         'all_items'             => __( 'All Portfolio Items', 'textdomain' ),
-//         'search_items'          => __( 'Search Portfolio', 'textdomain' ),
-//         'parent_item_colon'     => __( 'Parent Portfolio Items:', 'textdomain' ),
-//         'not_found'             => __( 'No portfolio items found.', 'textdomain' ),
-//         'not_found_in_trash'    => __( 'No portfolio items found in Trash.', 'textdomain' ),
-//     );
- 
-//     $args = array(
-//         'labels'             => $labels,
-//         'public'             => true,
-//         'publicly_queryable' => true,
-//         'show_ui'            => true,
-//         'show_in_menu'       => true,
-//         'query_var'          => true,
-//         'rewrite'            => array( 'slug' => 'portfolio-item' ),
-//         'capability_type'    => 'post',
-//         'has_archive'        => true,
-//         'menu_icon'          => 'dashicons-format-image',
-//         'hierarchical'       => false,
-//         'menu_position'      => 5,
-//         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt' ),
-//     );
- 
-//     register_post_type( 'portfolio_item', $args );
-// }
- 
-// add_action( 'init', 'portfolio_init' );
+add_action( 'init', 'struere_post_types_init' );
 
+function struere_post_types_init() {
+	
+  // Project post type
+	$project_labels = array(
+		'name'               => _x( 'Projects', 'post type general name', 'struere' ),
+		'singular_name'      => _x( 'Project', 'post type singular name', 'struere' ),
+		'menu_name'          => _x( 'Projects', 'admin menu', 'struere' ),
+		'name_admin_bar'     => _x( 'Projects', 'add new on admin bar', 'struere' ),
+		'add_new'            => _x( 'Add New', 'project post', 'struere' ),
+		'add_new_item'       => __( 'Add New Project', 'struere' ),
+		'new_item'           => __( 'New Project', 'struere' ),
+		'edit_item'          => __( 'Edit Project', 'struere' ),
+		'view_item'          => __( 'View Project', 'struere' ),
+		'all_items'          => __( 'All Projects', 'struere' ),
+		'search_items'       => __( 'Search Projects', 'struere' ),
+		'parent_item_colon'  => __( 'Parent Projects:', 'struere' ),
+		'not_found'          => __( 'No Projects found.', 'struere' ),
+		'not_found_in_trash' => __( 'No Projects found in Trash.', 'struere' )
+	);
 
+	$project_args = array(
+		'labels'             => $project_labels,
+		'public'             => true,
+		'publicly_queryable' => true,
+		'show_ui'            => true,
+		'show_in_menu'       => true,
+		'query_var'          => true,
+		'rewrite'            => array( 'slug' => 'project' ),
+		'capability_type'    => 'post',
+		'has_archive'        => true,
+		'hierarchical'       => false,
+		'menu_position'      => 15,
+		'menu_icon' 				 => 'dashicons-admin-multisite',
+		'supports'           => array( 'title', 'editor', 'revisions', 'thumbnail' )
+	);
+
+	register_post_type( 'project', $project_args );
+}
+
+/**
+ * Taxonomies
+ */
+
+add_action( 'init', 'project_taxonomies', 0 );
+
+function project_taxonomies() {
+	
+	$labels = array(
+		'name'              => _x( 'Project Categories', 'taxonomy general name' ),
+		'singular_name'     => _x( 'Project Category', 'taxonomy singular name' ),
+		'search_items'      => __( 'Search Project Categories' ),
+		'all_items'         => __( 'All Project Categories' ),
+		'parent_item'       => __( 'Parent Project Category' ),
+		'parent_item_colon' => __( 'Parent Project Category:' ),
+		'edit_item'         => __( 'Edit Project Category' ),
+		'update_item'       => __( 'Update Project Category' ),
+		'add_new_item'      => __( 'Add New Project Category' ),
+		'new_item_name'     => __( 'New Project Category Name' ),
+		'menu_name'         => __( 'Project Categories' ),
+	);
+
+	$args = array(
+		'hierarchical'      => true,
+		'labels'            => $labels,
+		'show_ui'           => true,
+		'show_admin_column' => true,
+		'query_var'         => true,
+		'rewrite'           => array( 'slug' => 'project-category' ),
+	);
+
+	register_taxonomy( 'project-category', array( 'project' ), $args );
+}

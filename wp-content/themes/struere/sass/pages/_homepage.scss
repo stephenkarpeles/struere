@@ -7,6 +7,7 @@
     width: 370px;
     padding: 25px 30px;
     bottom: 30px;
+    max-width: 100%;
 
     &.in-view {
       animation: home-intro-animation .75s ease-in forwards;
@@ -33,6 +34,16 @@
 
     strong {
       font-family: $sans-serif-bold;
+    }
+
+    @include mq(mobile-landscape, 'max-width') {
+      bottom: 15px;
+      right: 15px;
+      padding: 15px 30px;
+
+      p {
+        font-size: 14px;
+      }
     }
   }
 }
@@ -136,6 +147,10 @@
       transform: translateX(0px);
       opacity: 1;
     }
+  }
+
+  @include mq(ipad, 'max-width') {
+    display: none;
   }
 }
 

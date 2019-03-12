@@ -18,7 +18,7 @@ get_header();
 
   <section class="publications__list">
     <div class="container">
-      <h2>Online</h2>
+      <!-- <h2>Online</h2> -->
       <ul>
         <li><a href="http://www.dezeen.com/2016/10/15/struere-builds-hollywood-home-revive-mid-century-modernism-los-angeles-california/" target="_blank"><span>dezeen.</span> Struere builds Hollywood home to help revive mid-century modernism.</a></li>
         <li><a href="http://www.archdaily.com/795861/hollywood-hills-residence-struere?utm_medium=email&utm_source=ArchDaily%20List" target="_blank"><span>ArchDaily.</span> Hollywood Hills Residence.</a></li>
@@ -32,7 +32,7 @@ get_header();
 
   <section class="publications__print-list">
     <div class="container">
-      <h2>Print</h2>
+      <!-- <h2>Print</h2> -->
       <ul>
         <li><div><span>Los Angeles Business Journal.</span> Hraztan Zeitlian quoted in Question of the Week section about Electronic Media on Downtown Skyscrapers.</div></li>
         <li><div><span>Los Angeles Business Journal.</span> Hraztan Zeitlian quoted in Question of the Week section about the market for qualified employees.</div></li>

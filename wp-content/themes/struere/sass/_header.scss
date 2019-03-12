@@ -67,4 +67,35 @@
       color: white;
     }
   }
+
+  @include mq(container-max, 'max-width') {
+    align-items: flex-start;
+    flex-direction: column;
+
+    &__nav {
+      ul {
+        margin: 12px 0 0 0;
+      }
+
+      li:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @include mq(desktop-narrow, 'max-width') {
+    padding: 20px 15px;
+  }
+
+  @include mq(mobile-landscape, 'max-width') {
+    &__nav {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
 }
