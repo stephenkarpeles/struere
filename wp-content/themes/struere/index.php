@@ -36,8 +36,8 @@ get_header();
     <div img_src="banner14.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner14.jpg');"></div>
     <div img_src="banner15.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner15.jpg');"></div>
     <div img_src="banner16.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner16.jpg');"></div>
-    <div img_src="banner17.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner17.jpg');"></div>
-    <div img_src="banner18.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner18.jpg');"></div>
+    <!-- <div img_src="banner17.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner17.jpg');"></div>
+    <div img_src="banner18.jpg" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner18.jpg');"></div> -->
   </div>
 
   <div id="content_holder">
@@ -56,8 +56,8 @@ get_header();
       <div id="home_slider_thumbs">
         <div caption="Burbank, CA" class="active" img_src="banner1.jpg" name="3700 Riverside Mixed Use" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner1.jpg');"></div>
         <div caption="Czech Republic" img_src="banner2.jpg" name="Praha, Prague National Library" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg');"></div>
-        <div caption="Jeddah, Saudi Arabia" img_src="banner3.jpg" name="OIC Headquarters" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner3.jpg');"></div>
-        <div caption="Yerevan, Armenia" img_src="banner4.jpg" name="Intercontinental Hotel Mixed Use Complex" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg');"></div>
+        <div caption="Jeddah, Saudi Arabia" img_src="banner3.jpg" name="Hilal, OIC Headquarters" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner3.jpg');"></div>
+        <div caption="Yerevan, Armenia" img_src="banner4.jpg" name="Ler, Intercontinental Hotel Mixed Use Complex" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner4.jpg');"></div>
         <div caption="Yerevan, Armenia" img_src="banner5.jpg" name="Holy Translators Church" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner5.jpg');"></div>
         <div caption="Riyadh, Saudi Arabia" img_src="banner6.jpg" name="Red Crescent Hotel" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner6.jpg');"></div>
         <div caption="Riyadh, Saudi Arabia" img_src="banner7.jpg" name="Gharishe Office Tower" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg');"></div>
@@ -70,8 +70,8 @@ get_header();
         <div caption="Santa Monica, CA" img_src="banner14.jpg" name="2901 Wilshire Office Building" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner14.jpg');"></div>
         <div caption="Santa Monica, CA" img_src="banner15.jpg" name="2600 Colorado Office Building Renovation" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner15.jpg');"></div>
         <div caption="Los Angeles, CA" img_src="banner16.jpg" name="5211 Venice Mixed Use Building" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner16.jpg');"></div>
-        <div caption="Pasadena Playhouse District, CA" img_src="banner17.jpg" name="Las Ventanas Mixed Use Building" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner17.jpg');"></div>
-        <div caption="East of Los Angeles, CA" img_src="banner18.jpg" name="Civic Center" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner18.jpg');"></div>
+        <!-- <div caption="Pasadena Playhouse District, CA" img_src="banner17.jpg" name="Las Ventanas Mixed Use Building" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner17.jpg');"></div>
+        <div caption="East of Los Angeles, CA" img_src="banner18.jpg" name="Civic Center" style="background-image:url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner18.jpg');"></div> -->
       </div>
     </div><!-- home_slider -->
   </div><!-- content_holder -->

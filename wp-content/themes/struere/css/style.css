@@ -130,7 +130,7 @@ em {
 
 .container {
   width: 90%;
-  max-width: 1120px;
+  max-width: 90%;
   margin: 0 auto; }
 
 .header {
@@ -334,13 +334,30 @@ em {
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(0, 0, 0, 0.7); }
+      background: rgba(0, 0, 0, 0.35); }
+  .about__top .container {
+    display: flex;
+    justify-content: space-between; }
+  .about__top--left {
+    width: 290px; }
+    @media screen and (max-width: 859px) {
+      .about__top--left {
+        display: none; } }
+  .about__top--right {
+    width: calc(100% - 290px);
+    padding-left: 40px; }
+    @media screen and (max-width: 859px) {
+      .about__top--right {
+        width: 100%; } }
   .about section {
     animation: fade-in-1 1.5s ease;
     position: relative;
     z-index: 1000; }
     .about section:first-of-type {
       margin-top: 150px; }
+  .about a[href^="tel:"] {
+    color: white;
+    text-decoration: none; }
   .about__company-info {
     -webkit-columns: 3 250px;
     -moz-columns: 3 250px;
@@ -369,10 +386,9 @@ em {
         font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif;
         font-size: 19px; }
   .about__contact-block {
-    text-align: center;
-    border-top: 4px solid white;
+    text-align: left;
     padding-top: 20px;
-    margin: 20px auto 0;
+    margin: 10px 0 0 auto;
     width: 32.25%;
     max-width: 100%;
     min-width: 310px;
@@ -528,7 +544,7 @@ em {
   position: fixed;
   z-index: 9999;
   right: 15px;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.65);
   width: 370px;
   padding: 25px 30px;
   bottom: 30px;
@@ -583,7 +599,8 @@ em {
   bottom: 0px;
   width: 70px;
   height: calc(100% - 100px);
-  bottom: 0; }
+  bottom: 0;
+  overflow: hidden; }
 
 #content_holder #home_slider #home_slider_bg {
   position: absolute;
@@ -601,8 +618,8 @@ em {
   top: 0;
   width: 70px;
   text-align: center;
-  max-height: 470px;
-  overflow: scroll; }
+  max-height: 685px;
+  overflow: hidden; }
 
 #content_holder #home_slider #home_slider_thumbs div {
   position: relative;
@@ -643,7 +660,7 @@ em {
   right: 20px;
   max-width: 100%;
   min-width: 300px;
-  text-transform: uppercase;
+  text-transform: none;
   line-height: 1.15;
   font-family: "franklingothic-demi", Georgia, serif;
   z-index: 9000;

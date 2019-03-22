@@ -10,43 +10,57 @@ get_header();
 <div class="about">
   <div class="about__bg"></div>
 
-  <section>
-    <div class="container">      
-      <div class="about__company-info">
-        <!-- <h1>Struere Architecture</h1> -->
-        <p class="intro">We love Architecture, Shared Space and Technology! Our design passion lies where these categories merge. We are drawn to innovative building ideas that solve big problems, ameliorate the human experience and enhance our environment.</p>
-        <h2>Who We Are</h2>
-        <p><strong>Struere is an Architecture and Interiors firm based in West Los Angeles</strong>. Whether it be newly built or preservation, we approach each architectural design project with one purpose – to achieve excellence in design and service.</p> 
-        <p>For us Architecture is a movement for progressive change in the urban environment. Each project is an opportunity for innovation and experimentation.</p>
-        <p>We are well versed in leading edge design trends and forward thinking ideas that encapsulate 21st century places of living, learning, working and playing. Our portfolio demonstrates our experience in sustainability, wellness strategies, media and technology integration, and the creation of vibrant shared spaces of interaction and interactivity.</p> 
-        <h2>Leadership</h2>
-        <p>Struere offers the intimacy of a boutique studio devoted to design that provides personalized service and team continuity, backed by the vast experience the leadership team has acquired while working with the largest firms in Los Angeles. Our leadership consists of Founder Hraztan Zeitlian as the Design Principal for Shell and Core Architecture and Silva Zeitlian as Design principal for Interior Architecture.</p>
-        <p>Struere's leadership history spans three decades working for a wide variety of prestigious clients such as Google, Disney, Sony, LA Rams, Metlife, LA City, LA County, USC, UCLA, LACCD, LAUSD, SMMUSD, ArcLight, AMC, just to name a few.</p>
-        <h2>Work</h2>
-        <p>Our portfolio of successful projects presents excellence in the Commercial, Residential Mixed Use, Civic and Educational Market Sectors. Our Leadership is recognized as innovators in these areas through prestigious Design Awards, including 3 American Architecture National Design Awards from the Chicago Athenaeum and 2 American Institute of Architects Los Angeles Chapter Design Awards, in addition to Design Awards from the AIA National Academy of Architecture for Justice, the AIA California Council and multiple AIA Chapters throughout Southern California.</p>
-        <p>Our work has been published internationally in Domus, L'ARCA, as well as nationally in Architectural Record, Architect, Form, Contract Design, Architect's Newspaper, etc. </p>
+  <section class="about__top">
+    <div class="container">  
+
+      <div class="about__top--left">
+
+        <div class="about__project-image">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-image.jpg" alt="Project Image">
+        </div>  
+
       </div>
 
-      <div class="about__contact-block">
-        <h3>Contact Us</h3>
-        <div class="about__contact-block-content">
-          <div class="about__address">
-            3324 Grand View Blvd<br>
-            Los Angeles, CA 90066
-          </div>
-          <div class="about__phone">
-            (310) 748-7649
-          </div>
-          <div class="about__facebook">
-            <a href="https://www.facebook.com/Struere/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <div class="about__top--right">
+
+        <div class="about__company-info">
+          <!-- <h1>Struere Architecture</h1> -->
+          <p class="intro">We love Architecture, Shared Space and Technology! Our design passion lies where these categories merge. We are drawn to innovative building ideas that solve big problems, ameliorate the human experience and enhance our environment.</p>
+          <!-- <h2>Who We Are</h2> -->
+          <p><strong>Struere is an Architecture and Interiors firm based in West Los Angeles</strong>. Whether it be newly built or preservation, we approach each architectural design project with one purpose – to achieve excellence in design and service.</p> 
+          <p>For us Architecture is a movement for progressive change in the urban environment. Each project is an opportunity for innovation and experimentation. We are well versed in leading edge design trends and forward thinking ideas that encapsulate 21st century places of living, learning, working and playing.</p>
+          <p>Our portfolio demonstrates our experience in sustainability, wellness strategies, media and technology integration, and the creation of vibrant shared spaces of interaction and interactivity.</p> 
+          <!-- <h2>Leadership</h2> -->
+          <p>Struere offers the intimacy of a boutique studio devoted to design that provides personalized service and team continuity, backed by the vast experience the leadership team has acquired while working with the largest firms in Los Angeles. Our leadership consists of Founder <a href="#hraztan"><strong>Hraztan Zeitlian</strong></a> as the Design Principal for Shell and Core Architecture and <a href="#silva"><strong>Silva Zeitlian</strong></a> as Design principal for Interior Architecture.</p>
+          <p>Struere's leadership history spans three decades working for a wide variety of prestigious clients such as Google, Disney, Sony, LA Rams, Metlife, LA City, LA County, USC, UCLA, LACCD, LAUSD, SMMUSD, ArcLight, AMC, just to name a few.</p>
+          <!-- <h2>Work</h2> -->
+          <p>Our portfolio of successful projects presents excellence in the Commercial, Residential Mixed Use, Civic and Educational Market Sectors. Our Leadership is recognized as innovators in these areas through prestigious Design Awards, including 3 American Architecture National Design Awards from the Chicago Athenaeum and 2 American Institute of Architects Los Angeles Chapter Design Awards, in addition to Design Awards from the AIA National Academy of Architecture for Justice, the AIA California Council and multiple AIA Chapters throughout Southern California.</p>
+          <p>Our work has been published internationally in Domus, L'ARCA, as well as nationally in Architectural Record, Architect, Form, Contract Design, Architect's Newspaper, etc. </p>
+        </div>
+
+        <div class="about__contact-block">
+          <h3>Contact</h3>
+          <div class="about__contact-block-content">
+            <div class="about__address">
+              3324 Grand View Blvd<br>
+              Los Angeles, CA 90066
+            </div>
+            <div class="about__phone">
+              <a href="tel:1-310-748-7649">(310) 748-7649</a><br>
+              <a href="mailto:hraztan@struere.com">hraztan@struere.com</a>
+            </div>
+            <div class="about__facebook">
+              <a href="https://www.facebook.com/Struere/" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
           </div>
         </div>
+
       </div>
 
     </div>
   </section>
 
-  <section class="hraztan">
+  <section class="hraztan" id="hraztan">
     <div class="container">
       <div class="hraztan__image">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/hraztan-bw.jpg" alt="Hraztan Zeitlian">
@@ -54,9 +68,9 @@ get_header();
         <div class="about__social-links about__social-links--hraztan">
           <ul>
               <li><a href="https://www.linkedin.com/in/hraztanzeitlian/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-              <li><a href="" target="_blank"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/hraztan.zeitlian" target="_blank"><i class="fab fa-facebook"></i></a></li>
               <li><a href="https://twitter.com/hraztanzeitlian" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-              <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/hraztan/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
       </div>
@@ -81,7 +95,7 @@ get_header();
     </div>
   </section>
 
-  <section class="silva">
+  <section class="silva" id="silva">
     <div class="container">
       <div class="silva__image">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/silva-small-bw.jpg" alt="Hraztan Zeitlian">
@@ -89,7 +103,7 @@ get_header();
         <div class="about__social-links about__social-links--silva">
           <ul>
             <li>
-              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/silva-zeitlian-827503a/"><i class="fab fa-linkedin"></i></a>
             </li>
           </ul>
         </div>
