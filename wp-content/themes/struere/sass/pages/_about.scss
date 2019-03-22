@@ -166,6 +166,10 @@
   .container {
     display: flex;
     justify-content: space-between;
+
+    @include mq(mobile-landscape, 'max-width') {
+      flex-direction: column;
+    }
   }
 
   &__name {
@@ -188,6 +192,16 @@
     @include mq(tablet, 'max-width') {
       width: 110px;
     }
+
+    @include mq(mobile-landscape, 'max-width') {
+      width: 100%;
+      margin-bottom: 30px;
+
+      img {
+        max-width: 220px;
+        margin: 0 auto;
+      }
+    }
   }
 
   &__text {
@@ -204,6 +218,11 @@
     @include mq(desktop-narrow, 'max-width') {
       width: calc(100% - 110px);
       padding-left: 20px;
+    }
+
+    @include mq(mobile-landscape, 'max-width') {
+      width: 100%;
+      padding-left: 0;
     }
   }
 }
@@ -216,6 +235,10 @@
   .container {
     display: flex;
     justify-content: space-between;
+
+    @include mq(mobile-landscape, 'max-width') {
+      flex-direction: column;
+    }
   }
 
   &__name {
@@ -238,6 +261,16 @@
     @include mq(tablet, 'max-width') {
       width: 110px;
     }
+
+    @include mq(mobile-landscape, 'max-width') {
+      width: 100%;
+      margin-bottom: 30px;
+
+      img {
+        max-width: 220px;
+        margin: 0 auto;
+      }
+    }
   }
 
   &__text {
@@ -254,6 +287,11 @@
     @include mq(desktop-narrow, 'max-width') {
       width: calc(100% - 110px);
       padding-left: 20px;
+    }
+
+    @include mq(mobile-landscape, 'max-width') {
+      width: 100%;
+      padding-left: 0;
     }
   }
 }

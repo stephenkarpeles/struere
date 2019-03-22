@@ -425,6 +425,9 @@ em {
   .hraztan .container {
     display: flex;
     justify-content: space-between; }
+    @media screen and (max-width: 479px) {
+      .hraztan .container {
+        flex-direction: column; } }
   .hraztan__name {
     font-family: "franklingothic-demi", Georgia, serif;
     font-size: 38px;
@@ -441,6 +444,13 @@ em {
     @media screen and (max-width: 639px) {
       .hraztan__image {
         width: 110px; } }
+    @media screen and (max-width: 479px) {
+      .hraztan__image {
+        width: 100%;
+        margin-bottom: 30px; }
+        .hraztan__image img {
+          max-width: 220px;
+          margin: 0 auto; } }
   .hraztan__text {
     width: calc(100% - 290px);
     padding-left: 40px;
@@ -454,6 +464,10 @@ em {
       .hraztan__text {
         width: calc(100% - 110px);
         padding-left: 20px; } }
+    @media screen and (max-width: 479px) {
+      .hraztan__text {
+        width: 100%;
+        padding-left: 0; } }
 
 .silva {
   margin-top: 0;
@@ -462,6 +476,9 @@ em {
   .silva .container {
     display: flex;
     justify-content: space-between; }
+    @media screen and (max-width: 479px) {
+      .silva .container {
+        flex-direction: column; } }
   .silva__name {
     font-family: "franklingothic-demi", Georgia, serif;
     font-size: 38px;
@@ -478,6 +495,13 @@ em {
     @media screen and (max-width: 639px) {
       .silva__image {
         width: 110px; } }
+    @media screen and (max-width: 479px) {
+      .silva__image {
+        width: 100%;
+        margin-bottom: 30px; }
+        .silva__image img {
+          max-width: 220px;
+          margin: 0 auto; } }
   .silva__text {
     width: calc(100% - 290px);
     padding-left: 40px;
@@ -491,6 +515,10 @@ em {
       .silva__text {
         width: calc(100% - 110px);
         padding-left: 20px; } }
+    @media screen and (max-width: 479px) {
+      .silva__text {
+        width: 100%;
+        padding-left: 0; } }
 
 .awards {
   color: white;
