@@ -12,7 +12,7 @@ get_header();
 
   <section>
     <div class="container">
-      <h1>Awards</h1>      
+      <!-- <h1>Awards</h1>  -->     
     </div>
   </section>
 

@@ -12,10 +12,47 @@ get_header();
 
     <div class="project-post__content">
 
-      <div class="project-post__col-left">     
-        <div class="project-post__image">
+      <div class="project-post__col-left">   
+        <!-- The images -->
+
+        <div class="project-post__image project-details__image is-active-project-detail" data-variant-content="1">
           <?php the_post_thumbnail(); ?>
         </div>
+
+        <?php if ( have_rows( 'gallery' ) ) : $i = 1; ?>
+
+          <?php
+          while ( have_rows( 'gallery' ) ) : the_row(); $i++;
+           $image = get_sub_field( 'image' );
+          ?>
+
+            <div class="project-post__image project-details__image" data-variant-content="<?php echo $i; ?>">
+              <img src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_html( $image['alt'] ); ?>"?>
+            </div>         
+
+          <?php endwhile; ?> 
+        <?php endif; ?>
+
+        <!-- The buttons -->
+
+        <button class="btn is-active-project-variant" data-variant-index="1">
+           <?php the_post_thumbnail(); ?>
+        </button>
+
+        <?php if ( have_rows( 'gallery' ) ) : $i = 1; ?>
+
+          <?php
+          while ( have_rows( 'gallery' ) ) : the_row(); $i++;
+           $image = get_sub_field( 'image' );
+          ?>
+
+            <button class="btn" data-variant-index="<?php echo $i; ?>">
+              <img src="<?php echo esc_url( $image['url'] ); ?>" alt="<?php echo esc_html( $image['alt'] ); ?>"?>
+            </button>          
+
+          <?php endwhile; ?> 
+        <?php endif; ?>
+
       </div>
 
       <div class="project-post__col-right">

@@ -136,6 +136,10 @@ function struere_scripts() {
   	wp_enqueue_script( 'struere-slider-script', get_template_directory_uri() . '/js/home-slider.js', array(), '20151215', true );
   }
 
+  if ( is_singular( 'project' ) ) {
+    wp_enqueue_script( 'variant-switcher-script', get_template_directory_uri() . '/js/variant-switcher.js'); 
+  }
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
