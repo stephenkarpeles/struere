@@ -18,18 +18,18 @@ get_header();
 
         <div class="button-group filters-button-group">
           <button class="button is-checked" data-filter="*">View All</button>
-          <button class="button" data-filter=".aviation">Aviation</button>
+          <!-- <button class="button" data-filter=".aviation">Aviation</button> -->
           <button class="button" data-filter=".civic">Civic</button>
           <button class="button" data-filter=".commercial">Commercial</button>
           <button class="button" data-filter=".education">Education</button>
-          <button class="button" data-filter=".healthcare">Healthcare</button>
+          <!-- <button class="button" data-filter=".healthcare">Healthcare</button> -->
           <button class="button" data-filter=".hospitality">Hospitality</button>
           <button class="button" data-filter=".interiors">Interiors</button>
-          <button class="button" data-filter=".master">Master Plan</button>
+          <!-- <button class="button" data-filter=".master">Master Plan</button> -->
           <button class="button" data-filter=".arts">Performing Arts, Cinema</button>
-          <button class="button" data-filter=".religion">Religion</button>
+          <!-- <button class="button" data-filter=".religion">Religion</button> -->
           <button class="button" data-filter=".residential">Residential</button>
-          <button class="button" data-filter=".sports">Sports</button>
+          <!-- <button class="button" data-filter=".sports">Sports</button> -->
         </div>
 
         <div class="portfolio-grid">
@@ -66,12 +66,14 @@ get_header();
                     </a>
                   </div>
                   <div class="portfolio-item__content">
-                    <div class="portfolio-item__title">
-                      <h3><?php the_title(); ?></h3>  
-                    </div>
-                    <div class="portfolio-item__caption">
+                    <a href="<?php the_permalink(); ?>">
+                      <div class="portfolio-item__title">
+                        <h3><?php the_title(); ?></h3>  
+                      </div>
+                    </a>
+                    <!-- <div class="portfolio-item__caption">
                       <p><?php echo $location; ?></p>
-                    </div>                      
+                    </div>  -->                     
                   </div>        
                 </div>
 

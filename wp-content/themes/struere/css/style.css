@@ -3,6 +3,11 @@
     opacity: 0; }
   100% {
     opacity: 1; } }
+@keyframes slideup {
+  from {
+    bottom: -100%; }
+  to {
+    bottom: 0; } }
 *,
 *::before,
 *::after {
@@ -205,8 +210,6 @@ em {
   font-size: 14px;
   cursor: pointer;
   border: 1px solid white; }
-  .button:first-child {
-    display: none; }
 
 .button:focus {
   outline: none; }
@@ -262,22 +265,31 @@ em {
   width: 22.75%;
   margin-right: 2.25%;
   margin-bottom: 35px;
-  display: block; }
+  display: block;
+  overflow: hidden;
+  transition: all .3s ease; }
   @media screen and (max-width: 1023px) {
     .portfolio-item {
       width: 310px; } }
   @media screen and (max-width: 479px) {
     .portfolio-item {
       width: 100%; } }
+  .portfolio-item:hover .portfolio-item__content {
+    bottom: 0; }
   .portfolio-item__content {
-    padding: 15px 20px 17px;
-    border-bottom: 1px solid white;
-    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 145px; }
+    height: auto;
+    position: absolute;
+    bottom: -100%;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    transition: all .3s ease; }
   .portfolio-item__img-wrap {
     overflow: hidden; }
     .portfolio-item__img-wrap img {
@@ -289,7 +301,7 @@ em {
         transform: scale(1.075); }
   .portfolio-item__title {
     margin: 0;
-    padding: 5px 0 10px; }
+    padding: 5px 0; }
     .portfolio-item__title h3 {
       margin: 0;
       padding: 0; }
@@ -524,7 +536,7 @@ em {
   color: white;
   overflow: hidden; }
   .awards__bg {
-    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner7.jpg");
+    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner18.jpg");
     position: fixed;
     width: 100%;
     height: 100%;
@@ -544,7 +556,7 @@ em {
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(0, 0, 0, 0.7); }
+      background: rgba(0, 0, 0, 0.4); }
   .awards h1 {
     text-transform: uppercase;
     position: relative;
@@ -791,7 +803,7 @@ em {
       bottom: 0;
       left: 0;
       right: 0;
-      background: rgba(0, 0, 0, 0.8); }
+      background: rgba(0, 0, 0, 0.6); }
   .portfolio h1 {
     text-transform: uppercase;
     position: relative;
@@ -834,7 +846,7 @@ em {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.6); }
+    background: rgba(0, 0, 0, 0.3); }
 .publications h1 {
   text-transform: uppercase;
   position: relative;
@@ -921,20 +933,58 @@ em {
     .publications__print-list li span {
       font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
 
+.project-post-wrap {
+  color: white;
+  overflow: hidden; }
+  .project-post-wrap__bg {
+    background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner1.jpg");
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+    .project-post-wrap__bg:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7); }
+
 .single-project {
   background: #333; }
 
 .project-post {
+  position: relative;
+  z-index: 200;
   color: white;
   margin-top: 170px; }
   .project-post a {
     color: white; }
+  .project-post__title h2 {
+    margin-bottom: 10px;
+    padding-bottom: 0; }
   .project-post__content {
     display: flex;
     justify-content: space-between; }
     @media screen and (max-width: 767px) {
       .project-post__content {
         flex-direction: column; } }
+  .project-post__location {
+    font-style: italic; }
+    .project-post__location p {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
+      padding-bottom: 20px; }
   .project-post__col-left {
     width: 65%; }
     @media screen and (max-width: 859px) {
@@ -984,7 +1034,7 @@ em {
 
 .project-details__image {
   display: none;
-  margin-bottom: 15px; }
+  margin-bottom: 30px; }
   .project-details__image.is-active-project-detail {
     display: block; }
 

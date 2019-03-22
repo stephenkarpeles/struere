@@ -8,7 +8,7 @@ get_header();
 ?>
 
 <div class="awards">
-  <div class="portfolio__bg"></div>
+  <div class="awards__bg"></div>
 
   <section>
     <div class="container">

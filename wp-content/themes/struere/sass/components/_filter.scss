@@ -11,9 +11,9 @@
   cursor: pointer;
   border: 1px solid white;
 
-  &:first-child {
-    display: none;
-  }
+  // &:first-child {
+  //   display: none;
+  // }
 }
 
 .button:focus {
@@ -87,6 +87,8 @@
   margin-right: 2.25%;
   margin-bottom: 35px;
   display: block;
+  overflow: hidden;
+  transition: all .3s ease;
 
   @include mq(desktop, 'max-width') {
     width: 310px;
@@ -96,15 +98,27 @@
     width: 100%;
   }
 
+  &:hover {
+    #{$self}__content {
+      bottom: 0;
+    }
+  }
+
   &__content {
-    padding: 15px 20px 17px;
-    border-bottom: 1px solid white;
-    background: rgba(white, .1);
+    padding: 15px 20px;
+    // border-bottom: 1px solid white;
+    background: rgba(black, .5);
     color: white;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 145px;
+    height: auto;
+    position: absolute;
+    bottom: -100%;
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+    transition: all .3s ease;
   }
 
   &__img-wrap { 
@@ -124,7 +138,7 @@
 
   &__title {
     margin: 0;
-    padding: 5px 0 10px;
+    padding: 5px 0;
 
     h3 {
       margin: 0;

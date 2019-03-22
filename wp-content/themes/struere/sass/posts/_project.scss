@@ -1,13 +1,53 @@
+.project-post-wrap {
+  color: white;
+  overflow: hidden;
+
+  &__bg {
+    background-image: url('http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner1.jpg');
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &:after {
+      position: absolute;
+      z-index: 500;
+      content: '';
+      height: 100%;
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(black, .7);
+    }
+  }
+}
+
 .single-project {
   background: #333;
 }
 
 .project-post {
+  position: relative;
+  z-index: 200;
   color: white;
   margin-top: 170px;
 
   a {
     color: white;
+  }
+
+  &__title {
+    h2 {
+      margin-bottom: 10px;
+      padding-bottom: 0;
+    }
   }
 
   &__content {
@@ -16,6 +56,17 @@
 
     @include mq(ipad, 'max-width') {
       flex-direction: column;
+    }
+  }
+
+  &__location {
+    font-style: italic;
+
+    p {
+      margin-bottom: 0;
+      margin-top: 0;
+      padding-top: 0;
+      padding-bottom: 20px;
     }
   }
 
@@ -92,7 +143,7 @@
 
 .project-details__image {
   display: none;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   
   &.is-active-project-detail {
     display: block;

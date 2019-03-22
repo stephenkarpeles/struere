@@ -68,3 +68,8 @@ $breakpoints: (
     opacity: .6;
   }
 }
+
+@keyframes slideup {
+  from {bottom: -100%;}
+  to {bottom: 0;}
+}
