@@ -267,7 +267,7 @@ em {
   margin-bottom: 35px;
   display: block;
   overflow: hidden;
-  transition: all .3s ease; }
+  transition: all .35s ease; }
   @media screen and (max-width: 1023px) {
     .portfolio-item {
       width: 310px; } }
@@ -289,7 +289,7 @@ em {
     z-index: 100;
     width: 100%;
     overflow: hidden;
-    transition: all .3s ease; }
+    transition: all .35s ease; }
   .portfolio-item__img-wrap {
     overflow: hidden; }
     .portfolio-item__img-wrap img {
@@ -618,7 +618,7 @@ em {
   position: fixed;
   z-index: 9999;
   right: 15px;
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.6);
   width: 370px;
   padding: 25px 30px;
   bottom: 30px;
@@ -826,7 +826,7 @@ em {
 .publications .container {
   max-width: 940px; }
 .publications__bg {
-  background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner8.jpg");
+  background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/bg-struere-logo.jpg");
   position: fixed;
   width: 100%;
   height: 100%;
@@ -874,6 +874,12 @@ em {
     position: relative; }
   .publications section:first-of-type {
     margin-top: 150px; }
+.publications .pub-date {
+  font-family: "franklingothic-book", Helvetica, Arial, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 7px; }
 .publications__list ul {
   margin: 0;
   padding: 0; }
