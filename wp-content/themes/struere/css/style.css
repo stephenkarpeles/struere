@@ -267,7 +267,7 @@ em {
   margin-bottom: 35px;
   display: block;
   overflow: hidden;
-  transition: all .35s ease; }
+  transition: bottom .35s ease; }
   @media screen and (max-width: 1023px) {
     .portfolio-item {
       width: 310px; } }
@@ -289,14 +289,15 @@ em {
     z-index: 100;
     width: 100%;
     overflow: hidden;
-    transition: all .35s ease; }
+    transition: bottom .35s ease; }
   .portfolio-item__img-wrap {
     overflow: hidden; }
     .portfolio-item__img-wrap img {
       width: 100%;
       height: 190px;
       object-fit: cover;
-      transition: all .35s ease; }
+      transition: all .35s ease;
+      transform: scale(1.008); }
       .portfolio-item__img-wrap img:hover {
         transform: scale(1.075); }
   .portfolio-item__title {
@@ -692,8 +693,11 @@ em {
   top: 0;
   width: 70px;
   text-align: center;
-  max-height: 685px;
+  max-height: auto;
   overflow: hidden; }
+  @media (max-height: 800px) {
+    #content_holder #home_slider #home_slider_thumbs {
+      max-height: 685px; } }
 
 #content_holder #home_slider #home_slider_thumbs div {
   position: relative;

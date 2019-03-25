@@ -106,8 +106,12 @@
   width: 70px;
   // width: 400px;
   text-align: center;
-  max-height: 685px;
+  max-height: auto;
   overflow: hidden;
+
+  @media (max-height: 800px){
+    max-height: 685px;
+  }
 }
 
 #content_holder #home_slider #home_slider_thumbs div {

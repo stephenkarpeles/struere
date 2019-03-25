@@ -88,7 +88,7 @@
   margin-bottom: 35px;
   display: block;
   overflow: hidden;
-  transition: all .35s ease;
+  transition: bottom .35s ease;
 
   @include mq(desktop, 'max-width') {
     width: 310px;
@@ -118,7 +118,7 @@
     z-index: 100;
     width: 100%;
     overflow: hidden;
-    transition: all .35s ease;
+    transition: bottom .35s ease;
   }
 
   &__img-wrap { 
@@ -129,6 +129,7 @@
       height: 190px;
       object-fit: cover;
       transition: all .35s ease;
+      transform: scale(1.008);
 
       &:hover {
         transform: scale(1.075);
