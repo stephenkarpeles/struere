@@ -73,7 +73,7 @@ get_header();
       </div> 
 
       <div class="project-post__back-link">
-        <a href="<?php echo get_site_url(); ?>/portfolio">&larr; Back to All Projects</a>
+        <a href="<?php echo get_site_url(); ?>/portfolio">View All Projects</a>
       </div>
 
     </div>

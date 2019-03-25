@@ -1016,7 +1016,13 @@ em {
       padding-top: 0;
       padding-bottom: 20px; }
   .project-post__col-left {
-    width: 65%; }
+    width: 73%; }
+    @media screen and (max-width: 1099px) {
+      .project-post__col-left {
+        width: 68%; } }
+    @media screen and (max-width: 1023px) {
+      .project-post__col-left {
+        width: 65%; } }
     @media screen and (max-width: 859px) {
       .project-post__col-left {
         width: 100%;
@@ -1025,7 +1031,13 @@ em {
         display: flex;
         flex-direction: column; } }
   .project-post__col-right {
-    width: 32%; }
+    width: 24%; }
+    @media screen and (max-width: 1099px) {
+      .project-post__col-right {
+        width: 29%; } }
+    @media screen and (max-width: 1023px) {
+      .project-post__col-right {
+        width: 32%; } }
     @media screen and (max-width: 859px) {
       .project-post__col-right {
         width: 100%;
@@ -1034,20 +1046,27 @@ em {
         display: flex;
         flex-direction: column; } }
   .project-post__image img {
-    object-fit: cover;
-    height: 500px;
+    height: auto;
     width: 100%; }
-    @media screen and (max-width: 859px) {
-      .project-post__image img {
-        object-fit: unset;
-        height: auto; } }
   .project-post__back-link {
     margin: 30px 0 60px; }
     .project-post__back-link a {
-      font-weight: 700;
+      display: inline-block;
+      padding: 8px 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      color: white;
+      font-family: "franklingothic-demi", Georgia, serif;
       font-size: 14px;
-      letter-spacing: 1px;
-      text-transform: uppercase; }
+      cursor: pointer;
+      border: 1px solid rgba(255, 255, 255, 0.5); }
+      .project-post__back-link a:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: white;
+        outline: none;
+        opacity: 1; }
 
 .project-post .btn {
   background: none;
