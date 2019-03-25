@@ -974,6 +974,8 @@ em {
     bottom: 0;
     left: 0;
     right: 0; }
+    .single-project-civic .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
     .project-post-wrap__bg:after {
       position: absolute;
       z-index: 500;

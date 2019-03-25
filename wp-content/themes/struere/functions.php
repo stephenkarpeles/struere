@@ -256,3 +256,21 @@ function project_taxonomies() {
 
 	register_taxonomy( 'project-category', array( 'project' ), $args );
 }
+
+/**
+ * Add taxonomy name to body class
+ */
+
+function add_taxonomy_to_single( $classes ) {
+  if ( is_single() ) {
+    global $post;
+    $my_terms = get_the_terms( $post->ID, 'project-category' );
+    if ( $my_terms && ! is_wp_error( $my_terms ) ) {
+        foreach ($my_terms as $term) {
+            $classes[] = 'single-project-' . $term->slug;
+        }
+    }
+    return $classes;
+  }
+}
+add_filter( 'body_class', 'add_taxonomy_to_single' );
