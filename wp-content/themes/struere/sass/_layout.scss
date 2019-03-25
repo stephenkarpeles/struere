@@ -2,4 +2,9 @@
   width: $container-width;
   max-width: $container-max-width;
   margin: 0 auto;
+
+  @include mq(desktop-narrow, 'max-width') {
+    width: $container-width-mobile;
+    max-width: $container-max-width-mobile;
+  }
 }

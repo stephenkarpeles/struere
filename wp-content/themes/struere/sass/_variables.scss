@@ -27,8 +27,10 @@ $gray-light-1: #f8f8f8;
 $gray-light-2: #b4c5cf;
 
 // Layout
-$container-width: 90%;
-$container-max-width: 90%;
+$container-width: calc(100% - 140px);
+$container-max-width: calc(100% - 140px);
+$container-width-mobile: calc(100% - 30px);
+$container-max-width-mobile: calc(100% - 30px);
 $section-padding: 40px;
 $container-small-max-width: 840px;
 $viewport-switch: calc(#{$container-max-width}/.9);

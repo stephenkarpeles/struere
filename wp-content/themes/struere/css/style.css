@@ -134,9 +134,13 @@ em {
   font-family: "franklingothic-book-italic", Helvetica, Arial, sans-serif; }
 
 .container {
-  width: 90%;
-  max-width: 90%;
+  width: calc(100% - 140px);
+  max-width: calc(100% - 140px);
   margin: 0 auto; }
+  @media screen and (max-width: 859px) {
+    .container {
+      width: calc(100% - 30px);
+      max-width: calc(100% - 30px); } }
 
 .header {
   position: fixed;
