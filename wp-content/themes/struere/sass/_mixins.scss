@@ -9,7 +9,8 @@ $breakpoints: (
   desktop-narrow: 860px,
   desktop: 1024px,
   container-max: 1100px,
-  large: 1260px
+  large: 1260px,
+  x-large: 1450px
 );
 
 @mixin mq($breakpoint, $rule:min-width) {
