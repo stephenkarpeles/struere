@@ -17,21 +17,21 @@ document.addEventListener('DOMContentLoaded', () => {
   // the function that makes it all work
   function switchVariants(variant) {
     // this makes sure the right content displays
-    const activeContent = document.querySelectorAll('.is-active-project-detail');
+    const activeContent = document.querySelectorAll('.is-active-credential-detail');
     const selectedContent = document.querySelectorAll(`[data-variant-content='${variant}']`);
     [...activeContent].forEach(div => {
-      div.classList.remove('is-active-project-detail');
+      div.classList.remove('is-active-credential-detail');
     });
     [...selectedContent].forEach(div => {
-      div.classList.add('is-active-project-detail');
+      div.classList.add('is-active-credential-detail');
     });
     
     // this makes sure the pills and dropdown are in sync (when applicable)
     if (switchButtonControls !== null) {
-      const currentSwitchButton = document.querySelector('.is-active-project-variant');
+      const currentSwitchButton = document.querySelector('.is-active-credential-variant');
       const newSwitchButton = document.querySelector(`button[data-variant-index="${variant}"]`);
-      currentSwitchButton.classList.remove('is-active-project-variant');
-      newSwitchButton.classList.add('is-active-project-variant');
+      currentSwitchButton.classList.remove('is-active-credential-variant');
+      newSwitchButton.classList.add('is-active-credential-variant');
     }
   }
 

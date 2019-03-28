@@ -90,8 +90,69 @@ get_header();
         <p>Hraztan believes in advancing design through research and experimental pursuits.</p>
         <p>Hraztan has a Masters in Advanced Architectural Design from Columbia University and a Bachelor of Architecture from the Rhode Island School. He has studied Architecture at the American University of Beirut.</p>
         <p>Foreign Languages include French, Armenian, and familiarity with Arabic.</p>
-        <p><a href="<?php echo get_site_url(); ?>/awards/" target="_blank"><strong>AWARDS PRIOR TO STRUERE &raquo;</strong></a></p>
+        <!-- <p><a href="<?php echo get_site_url(); ?>/awards/" target="_blank"><strong>AWARDS PRIOR TO STRUERE &raquo;</strong></a></p> -->
       </div>
+    </div>
+    <div class="container">
+      <div class="hraztan__credentials-list">        
+        <button class="btn is-active-credential-variant" data-variant-index="1">
+          Civic Appointments
+        </button>
+
+        <button class="btn" data-variant-index="2">
+          Publications
+        </button>
+
+        <button class="btn" data-variant-index="3">
+          Academic
+        </button>
+
+        <button class="btn" data-variant-index="4">
+          Lectures, Symposia &amp; Juries
+        </button>
+
+        <button class="btn" data-variant-index="5">
+          Performance, Movies &amp; TV
+        </button>
+
+        <button class="btn" data-variant-index="6">
+          Professional &amp; Civic Organizations
+        </button>
+
+        <button class="btn" data-variant-index="7">
+          Exhibition
+        </button>
+        
+      </div> 
+      <div class="hraztan__credentials-content">
+        <div class="hraztan__credential-detail is-active-credential-detail" data-variant-content="1">
+          <p>1st one</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="2">
+          <p>2nd</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="3">
+          <p>3rd</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="4">
+          <p>4th</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="5">
+          <p>5th</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="6">
+          <p>6th</p>
+        </div>
+
+        <div class="hraztan__credential-detail" data-variant-content="7">
+          <p>7th</p>
+        </div>
+      </div> 
     </div>
   </section>
 

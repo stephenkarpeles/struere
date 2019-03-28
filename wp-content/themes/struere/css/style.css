@@ -463,40 +463,75 @@ em {
     display: block;
     line-height: 1;
     margin-bottom: 1rem; }
-  .hraztan__image {
+  .hraztan__image, .hraztan__credentials-list {
     width: 290px;
     max-width: 100%;
     position: relative; }
     @media screen and (max-width: 859px) {
-      .hraztan__image {
+      .hraztan__image, .hraztan__credentials-list {
         width: 190px; } }
     @media screen and (max-width: 639px) {
-      .hraztan__image {
+      .hraztan__image, .hraztan__credentials-list {
         width: 110px; } }
     @media screen and (max-width: 479px) {
-      .hraztan__image {
+      .hraztan__image, .hraztan__credentials-list {
         width: 100%;
         margin-bottom: 30px; }
-        .hraztan__image img {
+        .hraztan__image img, .hraztan__credentials-list img {
           max-width: 220px;
           margin: 0 auto; } }
-  .hraztan__text {
+  .hraztan__text, .hraztan__credentials-content {
     width: calc(100% - 290px);
     padding-left: 40px;
     column-count: 2; }
     @media screen and (max-width: 859px) {
-      .hraztan__text {
+      .hraztan__text, .hraztan__credentials-content {
         width: calc(100% - 190px);
         padding-left: 40px;
         column-count: 1; } }
     @media screen and (max-width: 859px) {
-      .hraztan__text {
+      .hraztan__text, .hraztan__credentials-content {
         width: calc(100% - 110px);
         padding-left: 20px; } }
     @media screen and (max-width: 479px) {
-      .hraztan__text {
+      .hraztan__text, .hraztan__credentials-content {
         width: 100%;
         padding-left: 0; } }
+  .hraztan__credentials-content {
+    column-count: 1; }
+  .hraztan__credentials-list button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    display: block;
+    color: white;
+    border: none;
+    background: transparent;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: all .15s ease; }
+    .hraztan__credentials-list button:hover {
+      opacity: .8; }
+  .hraztan__credentials-content, .hraztan__credentials-list {
+    margin-top: 2em; }
+  .hraztan__credentials-list button {
+    opacity: .6; }
+    .hraztan__credentials-list button:hover {
+      opacity: 1; }
+  .hraztan__credential-detail {
+    display: none; }
+    .hraztan__credential-detail.is-active-credential-detail {
+      display: block;
+      border-top: 1px solid white;
+      padding-top: 1.5em; }
+  .hraztan .is-active-credential-variant {
+    opacity: 1; }
 
 .silva {
   margin-top: 0;
@@ -974,7 +1009,19 @@ em {
     bottom: 0;
     left: 0;
     right: 0; }
+    .single-project-arts .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
     .single-project-civic .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+    .single-project-commercial .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+    .single-project-education .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+    .single-project-hospitality .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+    .single-project-interiors .project-post-wrap__bg {
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+    .single-project-residential .project-post-wrap__bg {
       background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
     .project-post-wrap__bg:after {
       position: absolute;

@@ -180,7 +180,8 @@
     margin-bottom: 1rem;
   }
 
-  &__image {
+  &__image,
+  &__credentials-list {
     width: 290px;
     max-width: 100%;
     position: relative;
@@ -204,7 +205,8 @@
     }
   }
 
-  &__text {
+  &__text,
+  &__credentials-content {
     width: calc(100% - 290px);
     padding-left: 40px;
     column-count: 2;
@@ -224,6 +226,65 @@
       width: 100%;
       padding-left: 0;
     }
+  }
+
+  &__credentials-content {
+    column-count: 1;
+  }
+
+  &__credentials-list {
+    button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      outline: none;
+      text-align: left;
+      cursor: pointer;
+
+      display: block;
+      color: white;
+      border: none;
+      background: transparent;
+      font-weight: 700;
+      margin-bottom: 10px;
+      padding: 0;
+      font-size: 15px;
+      text-transform: uppercase;
+      transition: all .15s ease;
+
+      &:hover {
+        opacity: .8;
+      }
+    }
+  }
+
+  &__credentials-content,
+  &__credentials-list {
+    margin-top: 2em;
+  }
+
+  &__credentials-list {
+    button {
+      opacity: .6;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  &__credential-detail {
+    display: none;
+  
+    &.is-active-credential-detail {
+      display: block;
+      border-top: 1px solid white;
+      padding-top: 1.5em;
+    }
+  }
+
+  .is-active-credential-variant {
+    opacity: 1;
   }
 }
 
