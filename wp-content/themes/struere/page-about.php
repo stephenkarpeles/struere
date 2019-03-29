@@ -11,13 +11,13 @@ get_header();
   <div class="about__bg"></div>
 
   <section class="about__top">
-    <div class="container">  
+    <div class="container">
 
       <div class="about__top--left">
 
         <div class="about__project-image">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/about-image.jpg" alt="Project Image">
-        </div>  
+        </div>
 
       </div>
 
@@ -27,9 +27,9 @@ get_header();
           <!-- <h1>Struere Architecture</h1> -->
           <p class="intro">We love Architecture, Shared Space and Technology! Our design passion lies where these categories merge. We are drawn to innovative building ideas that solve big problems, ameliorate the human experience and enhance our environment.</p>
           <!-- <h2>Who We Are</h2> -->
-          <p><strong>Struere is an Architecture and Interiors firm based in West Los Angeles</strong>. Whether it be newly built or preservation, we approach each architectural design project with one purpose – to achieve excellence in design and service.</p> 
+          <p><strong>Struere is an Architecture and Interiors firm based in West Los Angeles</strong>. Whether it be newly built or preservation, we approach each architectural design project with one purpose – to achieve excellence in design and service.</p>
           <p>For us Architecture is a movement for progressive change in the urban environment. Each project is an opportunity for innovation and experimentation. We are well versed in leading edge design trends and forward thinking ideas that encapsulate 21st century places of living, learning, working and playing.</p>
-          <p>Our portfolio demonstrates our experience in sustainability, wellness strategies, media and technology integration, and the creation of vibrant shared spaces of interaction and interactivity.</p> 
+          <p>Our portfolio demonstrates our experience in sustainability, wellness strategies, media and technology integration, and the creation of vibrant shared spaces of interaction and interactivity.</p>
           <!-- <h2>Leadership</h2> -->
           <p>Struere offers the intimacy of a boutique studio devoted to design that provides personalized service and team continuity, backed by the vast experience the leadership team has acquired while working with the largest firms in Los Angeles. Our leadership consists of Founder <a href="#hraztan"><strong>Hraztan Zeitlian</strong></a> as the Design Principal for Shell and Core Architecture and <a href="#silva"><strong>Silva Zeitlian</strong></a> as Design principal for Interior Architecture.</p>
           <p>Struere's leadership history spans three decades working for a wide variety of prestigious clients such as Google, Disney, Sony, LA Rams, Metlife, LA City, LA County, USC, UCLA, LACCD, LAUSD, SMMUSD, ArcLight, AMC, just to name a few.</p>
@@ -94,7 +94,7 @@ get_header();
       </div>
     </div>
     <div class="container">
-      <div class="hraztan__credentials-list">   
+      <div class="hraztan__credentials-list">
         <button class="btn is-active-credential-variant" data-variant-index="0">
           Awards Prior to Struere
         </button>
@@ -126,8 +126,8 @@ get_header();
         <button class="btn" data-variant-index="7">
           Exhibition
         </button>
-        
-      </div> 
+
+      </div>
       <div class="hraztan__credentials-content">
 
         <div class="hraztan__credential-detail is-active-credential-detail" data-variant-content="0">
@@ -330,7 +330,7 @@ get_header();
               is it OK?. Article by Kimberly Stevens quotes Hraztan Zeitlian and features Struere Hilal and Praha<br>
               projects.</p>
               <p>03/2008 ArcCA. Han Riverside Masterplan featured in AIACC/ASLA Awards Section.</p>
-              <p>01/2008 MARK. Praha featured in Notice Board Whats Happening Section.</p>
+              <p>01/2008 MARK. Praha featured in Notice Board Whats Happening Section.</p> 
               <p>01/14/2008 Los Angeles Business Journal. Hraztan Zeitlian photographed in LA BIZ Seen section.</p>
               <p>01/07/2008 Los Angeles Times. Dream dies for retail site at school. California Section Article by<br>
               Howard Blume on LAUSD Edward R. Roybal Learning Center.</p>
@@ -347,7 +347,7 @@ get_header();
               <a href="http://www.lemoniteur-expert.com/actualite/ architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm"> architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm</a></p>
               <p>11/12/2007 Los Angeles Business Journal. Architects dallying is drawing attention. Article by Daniel<br>
               Miller about Hraztan Zeitlian and Leo A Daly Los Angeles.</p>
-              <p>11/12/2007 Contract Design. NOX featured in Resources Section.</p>
+              <p>11/12/2007 Contract Design. NOX featured in Resources Section.</p>  
               <p>11/12/2007 California Construction. ELAC E1 G1 project featured in news section.</p>
               <p>09/10/2007 Form. Praha featured in AIA LA Next LA Awards Section.</p>
               <p>09/07/2007 AIA National Website news item featuring Hilal. <a href="http://www.aia.org/aiarchitect/ thisweek07/0907/0907b_global.cfm">http://www.aia.org/aiarchitect/</a><br>
@@ -359,12 +359,15 @@ get_header();
               <p>08/01/2007 Entree. Article by William Tomicki on Hotel Bel Air Spa</p>
               <p>07/21/2007 The Armenian Reporter. A 21st Century Tower of Babel. Article on Praha Project.</p>
               <p>07/19/2007 Article on Hraztan Zeitlian appointment to Leo A Daly as VP and Director of Design.<br>
-              <a href="http:/ /www.dexigner.com/architecture/news-g11482.html">http:/</a><a href="http:/ /www.dexigner.com/architecture/news-g11482.html">/www.dexigner.com/architecture/news-g11482.html</a></p>
-              <p>07/02/2006 LA Downtown News. Open the Miguel Contreras Pool. Editorial.</p>
+              <a href="http:/ /www.dexigner.com/architecture/news-g11482.html">http:/</a><a href="http:/ /www.dexigner.com/architecture/news-g11482.html">/www.dexigner.com/architecture/news-g11482.html</a></p>          
+              <p>07/02/2006 LA Downtown News. Open the Miguel Contreras Pool. Editorial.</p> 
               <p>06/28/2007 Los Angeles Times. Praha AIA Next LA Award mentioned in Home Section.</p>
               <p>03/2007 MARK. Hilal featured in Notice Board Whats Happening Section.</p>
               <p>02/2007 DOMUS. News item on Hilal Project. <a href="http://www.domusweb.it/domus2k6/source/contents/ item.cfm?type=NWS&amp;ID=65942">http://www.domusweb.it/domus2k6/source/contents/</a><br>
               <a href="http://www.domusweb.it/domus2k6/source/contents/ item.cfm?type=NWS&amp;ID=65942"> item.cfm?type=NWS&amp;ID=65942</a></p>
+            </div>
+            <div class="one-half">      
+              
               <p>01-02/2007 LA Architect. WuHan Riverside Masterplan featured in New Design Section.</p>
               <p>01-02/2007 The Lions Letter. Major Design Award for Architect Hraztan Zeitlian 90GSAP. Article<br>
               on Hilal.</p>
@@ -401,8 +404,6 @@ get_header();
               <p>12/2005 LA Architect. Article on LAUSD SRES2 project.</p>
               <p>11/15/2005 Los Angeles Times. Article in California Section by Joel Rubin on LAUSD Edward R. Roybal<br>
               Learning Center.</p>
-            </div>
-            <div class="one-half">
               <p>10/10/2005 LA Downtown News. Front page Article by Chris Coates on LAUSD Edward R. Roybal<br>
               Learning Center.</p>
               <p>10/02/2005 Los Angeles Times. Lessons unlearned. Calendar Section Article by Christopher<br>
@@ -453,7 +454,7 @@ get_header();
               <a href="www.gensler.com/entertainment/ nakama_complete.htm"> nakama_complete.htm</a></p>
               <p>04/12/2000 The Orange County Register. Spectrum Center is playing to a packed House. Article by<br>
               Greg Hardesty on Irvine Entertainment Center, Phase II.</p>
-              <p>02/2000 LA Architect. Out-trumping Trump. Article by Michael Webb on City of Angels Monument.</p>
+              <p>02/2000 LA Architect. Out-trumping Trump. Article by Michael Webb on City of Angels Monument.</p>        
               <p>1999 Urban Spaces. Book edited by John Morris Dixon. Cover photo and feature on Fashion Valley<br>
               Mall Expansion. [New York: Visual Reference Publications, Inc.].</p>
               <p>12/27/1999 Los Angeles Downtown News. Angel City inches forward if not upward. Article by Eddie<br>
@@ -526,29 +527,147 @@ get_header();
 
         <div class="hraztan__credential-detail" data-variant-content="3">
           <div class="hraztan__credentials-col-wrap">
+            <div class="one-half first">
+              <p>Spring 2016 USC School of Architecture. Co-Taught Undergraduate Design Studio. Fifth year students with Alice Kimm.</p>
+              <p>Fall 2014 USC School of Architecture. Visiting Design Critic. Taught undergraduate Design Studio. 2nd year students.</p>
+              <p>Fall 2013 USC School of Architecture. Visiting Design Critic. Taught Citizenville undergraduate Design Studio. 4th and 5th year students.</p>
+              <p>Spring 2002 USC School of Architecture. LAUSD Magnet School for Architecture. Co-Taught 4th Year</p>
+              <p>Design Studio with Scott Johnson.</p>
+            </div>
           </div>
         </div>
 
         <div class="hraztan__credential-detail" data-variant-content="4">
           <div class="hraztan__credentials-col-wrap">
+            <div class="one-half first">
+              <p>01/25/2017 Engineering News Record (ENR) National Awards 2017. Juror.</p>
+              <p>7/2015 AIACC 2015 Design Awards. Juror.</p>
+              <p>10/23/2014 AIACC 2014 Design Awards. Master of Ceremony.</p>
+              <p>11/07/2012 Southern California Development Forum 2011 Design Awards. Juror.</p>
+              <p>12/20/2011 Society of Marketing Professionals (SMPS) Los Angeles  MCA Awards. Jury Member.</p>
+              <p>2/13/2011 Southern California Development Forum 2011 Design Awards. Jury and Awards Ceremony<br>
+              Co-Chair.</p>
+              <p>03/29/2011 California Architects Practice Act. Talk to Woodbury University Architecture Students.<br>
+              Burbank.</p>
+              <p>03/04/2011 Los Angeles Community College District 9x9x9 Design Conference. East LA College.<br>
+              Presented LASC SOAH Perf Arts Building. 2 out of 9 Design Excellence projects selected for Conference<br>
+              presentations were designed by Hraztan.</p>
+              <p>02/15/2011 Southern California Development Forum Education Panel. Is Higher Education going to<br>
+              lead us to Economic Recovery? Panel Moderator.</p>
+              <p>12/14/2010 Southern California Development Forum 2010 Design Awards. Jury and Awards Ceremony<br>
+              Co-Chair.</p>
+              <p>02/8/2009 Southern California Development Forum 2009 Design Awards. Jury and Awards Ceremony<br>
+              Co-Chair.</p>
+              <p>07/02/2009 Governor Arnold Schwartzenegger Press Conference. Invited to join Governor on his side<br>
+              at Press Conference. Governors Office, Downtown, Los Angeles. http://gov.ca.gov/speech/12660/</p>
+              <p>04/14/2009 AIA LA Political Outreach Committee Roundtable. Design Build Project Delivery<br>
+              Methods. Panelist. Event held at AIA LA Chapter Offices.</p>
+              <p>04/2009 Los Angeles Business Council 2009 Design Awards. Juror.</p>
+            </div>
+            <div class="one-half">              
+              <p>11/2008 Emerging trends in Police Facilities Design. Talk to San Gabriel Valley Peace Officers<br>
+              Association. Covina.</p>
+              <p>11/22/2008 AIA Albuquerque 2008 Design Awards. Juror.</p>
+              <p>11/20/2008 AIA LA Design Dialogues.</p>
+              <p>11/20/2008 In the Academic Realm; 3 projects that explore new strategies in educational<br>
+              Architecture. Event Series Founder and one of three presenters at Inaugural Event. Event held at Leo A<br>
+              Daly Offices.</p>
+              <p>11/2008 McGraw-Hill Best of Best 2008 National Competition. Juror.</p>
+              <p>11/12/2008 Southern California Development Forum 2008 Design Awards. Jury President.</p>
+              <p>05/09/2008 AIA LA 2008 Design Awards. Next LA Awards Juror.</p>
+              <p>04/2008 Los Angeles Business Council 2008 Design Awards. Juror.</p>
+              <p>11/2007 SCDF 2007 Awards. Jury President.</p>
+              <p>07/2007 McGraw-Hill California Construction Magazine Best of 2007 Competition. Juror.</p>
+              <p>07/2007 Working Class: Academy and Practice Panel. UCLA Dept. of Architecture, Los Angeles.<br>
+              Panelist, with Thom Mayne, Neil Denari, Greg Lynn, Mark Lee, Martha Welborne. Presented Praha.</p>
+              <p>03/2003 AIA Committee on Architecture in Education (CAE) Conference. SCI-ARC, Los Angeles.<br>
+              Symposium Co-Presenter, with Scott Johnson. LAUSD Miguel Contreras Learning Complex.</p>
+              <p>02/2002 Lessons Learned: A Symposium and Display on School Design. Getty Center, Los Angeles.<br>
+              Symposium Participant. LAUSD Miguel Contreras Learning Complex exhibited and discussed.</p>
+              <p>11/1996 Reconstruction and Redevelopment in postwar Beirut. Talk to AIA/LA International Practice<br>
+              Committee.</p>
+            </div>
           </div>
         </div>
 
         <div class="hraztan__credential-detail" data-variant-content="5">
           <div class="hraztan__credentials-col-wrap">
+            <div class="one-half first">
+              <p>2015 Edward R Roybal Learning Center is setting Victoza TV Ad.</p>
+              <p>2014 WLAC Classroom Student Services Building featured as setting in Extant TV Series, CBS with Halle Berry.</p>
+              <p><a href="http://www.cbs.com/shows/extant/">http://www.cbs.com/shows/extant/</a></p>
+              <p>07/2014 Edward R Roybal Learning Center is setting for VW GTI TV AD during World Cup with Michael Ballack on ESPN.</p>
+              <p><a href="http://www.ispot.tv/ad/7Dvt/2014-volkswagen-golf-gti-greatest-hits-featuring-michael-ballack">http://www.ispot.tv/ad/7Dvt/2014-volkswagen-golf-gti-greatest-hits-featuring-michael-ballack</a></p>
+              <p>07/24/2011 University Synagogue featured as backdrop in Curb Your Enthusiasm on HBO TV.</p>
+              <p><a href="http://www.youtube.com/watch?v=nIXd-h8YeUc&amp;feature=related">http://www.youtube.com/watch?v=nIXd-h8YeUc&amp;feature=related</a></p>
+            </div>
+            <div class="one-half">              
+              <p>07/2009 LAUSD Miguel Contreras featured as backdrop in Mastercard Priceless TV AD.</p>
+              <p>02/2009 LAUSD Miguel Contreras featured as backdrop in Mastercard TV AD.</p>
+              <p>05/2008 LAUSD Miguel Contreras featured as backdrop in McDonalds TV AD.</p>
+              <p>2001 Interviewed on Cables The Joan Quinn Profiles show by Joan Agajanian Quinn.</p>
+              <p>1987 “There Was an Unseen Cloud Moving”. Video, by Leslie Thornton. Actor. Brown University<br>
+              Semiotics Department.</p>
+              <p>1984 Art Performance. Director. American University of Beirut Architecture Department.</p>
+            </div>
           </div>
         </div>
 
         <div class="hraztan__credential-detail" data-variant-content="6">
           <div class="hraztan__credentials-col-wrap">
+            <div class="one-half first">
+              <p>2015-Present AIA CC Monterey Design Conference board.</p>
+              <p>01/01/2012-14 AIA CC Design Awards Committee.</p>
+              <p>08/201002/06/2012 Los Angeles Business Council. Board Member.</p>
+              <p>2007-Present Los Angeles Business Council. Legislative Committee Member.</p>
+              <p>2008-2009 AIA Los Angeles Practice Committee. Founder and Chair.</p>
+              <p>12/2007-12/2009 AIA Los Angeles Board. Director.</p>
+            </div>
+            <div class="one-half">
+              <p>2006-2011 Southern California Development Forum. Board of Directors. President 2009.<br>
+              Vice President 2008.</p>
+              <p>2005-2007 AIA Los Angeles Design Awards Committee. Chair.</p>
+              <p>2006 LACMA Muse. Member.</p>
+              <p>2002-2005 Museum of Contemporary Art (MOCA) Contemporaries. Los Angeles. Member.</p>
+              <p>1998-Present AIA Los Angeles. Member.</p>
+              <p>07/1996-98 LA Architect Editorial Board. Member.</p>
+            </div>
           </div>
         </div>
 
         <div class="hraztan__credential-detail" data-variant-content="7">
           <div class="hraztan__credentials-col-wrap">
+            <div class="one-half first">
+              <p>02/2014 A+D Museum. Los Angeles. Building Site Exhibition. Student Work of Hraztan Zeitlian USC Architecture Citizenville Studio Exhibited.</p>
+              <p>02/2010 Contemporary Space. Athens, Greece. New American Architecture 2009 group exhibition. Soundsculpture.</p>
+              <p>Select Exhibitions<br>
+              – 11/2007 Kimball International. New York. New American Architecture 2007 group exhibition. Praha.</p>
+              <p>06/2007 UCLA. Los Angeles. Next LA Group Exhibition. Praha, Hilal, Staccato, West LA College General Classroom Building, Indio Teen Center.</p>
+              <p>11/2006 The Architecture Centre. Dublin 2, Ireland. New World Architecture group exhibition. Hilal.</p>
+              <p>Summer 2006 Sci-ARC. Los Angeles. Next LA Group Exhibition. Hilal, Staccato, Fluxform, Slash, West LA College General Classroom Building, Shanghai Telecom, LAUSD SRES2, LAUSD CLAHS11.</p>
+              <p>10/2005 LA Design Center. South Central LA, CA. West LA College General Classroom Building, SRES2, Han Riverside Masterplan, ZhuHai Masterplan Santa Monica College Student Services projects.</p>
+              <p>10/2004 A+D Museum. West Hollywood, CA. West LA College General Classroom Building, Han Riverside Masterplan, Ripple project exhibited as part of AIA/LA Next LA Group Exhibition.</p>
+              <p>03/2003 Verle Annis Outdoor Gallery, USC School of Architecture. Los Angeles, CA. LAUSD Miguel Contreras Learning Complex exhibited as part of AIA Committee on Architecture in Education Conference Group Exhibition.</p>
+              <p>Fall 2002 A+D Exhibit Space. Bradbury Building, Downtown, Los Angeles, CA. LAUSD Miguel Contreras Learning Complex exhibited as part of AIA/LA Next LA Group Exhibition.</p>
+            </div>
+            <div class="one-half">
+              <p>01/00-02/2000 Upper Gallery, Meyerson Hall. University of Pennsylvania Graduate School of Fine Arts. AMC Nakama.</p>
+              <p>10/16-17/1998 Boritzer Hamano Gallery. Bergamot Station Arts Complex, Santa Monica. AMC Nakama exhibited as part of AIA/LA Next LA Competition Group Exhibition.</p>
+              <p>06/17/1997 A/E/C Systems Show. Philadelphia Convention Center. E-SPACE Animation shown.</p>
+              <p>03/1997 Santora Gallery. Anaheim, CA. [X]: Nihilo Emerging Architects Group Exhibition. Debris Project.</p>
+              <p>11/1996 Storefront for Art &amp; Architecture. New York. E-Scape. Petrosino Park Competition Group Exhibition.</p>
+              <p>10/1996 Boritzer Hamano Gallery. Bergamot Station Arts Complex, Santa Monica. E-Scape and Debris projects exhibited as part of AIA/LA Next LA Competition Group Exhibition</p>
+              <p>10/1995 Wight Art Gallery, UCLA. Los Angeles. Surface Magazine Competition Group Exhibition.</p>
+              <p>1994 Bridge Gallery. Los Angeles City Hall. LA City/LA Forum Bus Shelter Competition Group Exhibition.</p>
+              <p>1992 Lindhurst Gallery, USC School of Architecture. Los Angeles. Semiotext(e)/Architecture Exhibition.</p>
+              <p>1991 Sci-ARC. Los Angeles. ATM Competition Group Exhibition.</p>
+              <p>1990 Buell Hall Gallery, Columbia University. New York. Student Design work Group Exhibition.</p>
+              <p>1989 Avery Hall Gallery, Columbia University. New York. Student Design work Group Exhibition.</p>
+              <p>1987 Woods-Gerry Gallery, RISD. Providence. Student Design work Group Exhibition.</p>
+            </div>
           </div>
         </div>
-      </div> 
+      </div>
     </div>
   </section>
 
@@ -566,19 +685,19 @@ get_header();
         </div>
       </div>
       <div class="silva__text">
-        <p><span class="silva__name">Silva Zeitlian</span> is Design Principal for Interior Architecture. She leads the design of all interior spaces and is Practice Leader for Interiors.</p> 
+        <p><span class="silva__name">Silva Zeitlian</span> is Design Principal for Interior Architecture. She leads the design of all interior spaces and is Practice Leader for Interiors.</p>
 
-        <p>Silva believes in creating dynamic interior public spaces of interaction, workplace environments that enhance communication and encourage creative synergies, and inviting, comforting spaces of play and relaxation.</p> 
+        <p>Silva believes in creating dynamic interior public spaces of interaction, workplace environments that enhance communication and encourage creative synergies, and inviting, comforting spaces of play and relaxation.</p>
 
         <p>Silva has more than 25 years of experience in interior architecture and a focus on high design, truly unique and at the same time functional environments reflecting clients' goals. Her approach reflects her deep commitment to design and to innovative solutions. Silva has extensive experience both nationally and internationally, with projects ranging from corporate headquarters to creative workplaces. Silva's work puts special focus on creating wellness inspired environments. She is WELL AP certified professional in addition to being an NCIDQ certified interior design.</p>
 
-        <p>She has received design awards from the International Interior Design Association (IIDA) Southern California Chapter, AIA San Fernando Valley Chapter, the Design Build Institute of America (DBIA) for the new Family Support Center in Los Angeles Valley, and from the National Association of Industrial and Office Properties for the interiors of KPMG Tower in McLean, Virginia.</p> 
+        <p>She has received design awards from the International Interior Design Association (IIDA) Southern California Chapter, AIA San Fernando Valley Chapter, the Design Build Institute of America (DBIA) for the new Family Support Center in Los Angeles Valley, and from the National Association of Industrial and Office Properties for the interiors of KPMG Tower in McLean, Virginia.</p>
 
-        <p>Silva Has received A Bachelor of Architecture and A Bachelor of Fine Arts from the Rhode Island School of Design.</p> 
+        <p>Silva Has received A Bachelor of Architecture and A Bachelor of Fine Arts from the Rhode Island School of Design.</p>
       </div>
     </div>
   </section>
-  
+
 </div>
 
 <?php get_footer(); ?>

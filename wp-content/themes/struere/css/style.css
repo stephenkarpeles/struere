@@ -525,6 +525,8 @@ em {
             padding-right: 0; } }
   .hraztan__credentials-content {
     column-count: 1; }
+    .hraztan__credentials-content a {
+      word-wrap: break-word; }
   @media screen and (max-width: 479px) {
     .hraztan__credentials-list {
       margin-bottom: 10px; } }

@@ -277,6 +277,10 @@
 
   &__credentials-content {
     column-count: 1;
+
+    a {
+      word-wrap: break-word;
+    }
   }
 
   &__credentials-list {
