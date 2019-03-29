@@ -497,39 +497,84 @@ em {
       .hraztan__text, .hraztan__credentials-content {
         width: 100%;
         padding-left: 0; } }
+  .hraztan__credentials-col-wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    overflow: auto; }
+    @media screen and (max-width: 767px) {
+      .hraztan__credentials-col-wrap {
+        flex-direction: column; } }
+    .hraztan__credentials-col-wrap p {
+      font-size: 15px;
+      padding-bottom: .75rem;
+      line-height: 18px; }
+    .hraztan__credentials-col-wrap .one-half {
+      width: 50%;
+      padding-left: 10px; }
+      @media screen and (max-width: 767px) {
+        .hraztan__credentials-col-wrap .one-half {
+          width: 100%;
+          padding-left: 0; } }
+      .hraztan__credentials-col-wrap .one-half.first {
+        padding-right: 20px;
+        padding-left: 0; }
+        @media screen and (max-width: 767px) {
+          .hraztan__credentials-col-wrap .one-half.first {
+            padding-right: 0; } }
   .hraztan__credentials-content {
     column-count: 1; }
+  @media screen and (max-width: 479px) {
+    .hraztan__credentials-list {
+      margin-bottom: 10px; } }
   .hraztan__credentials-list button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
     outline: none;
     text-align: left;
+    width: 100%;
     cursor: pointer;
     display: block;
     color: white;
     border: none;
     background: transparent;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 0;
     font-size: 15px;
     text-transform: uppercase;
     transition: all .15s ease; }
     .hraztan__credentials-list button:hover {
       opacity: .8; }
+    @media screen and (max-width: 639px) {
+      .hraztan__credentials-list button {
+        padding-right: 10px;
+        font-size: 14px; } }
+    @media screen and (max-width: 479px) {
+      .hraztan__credentials-list button {
+        margin-bottom: 10px; } }
   .hraztan__credentials-content, .hraztan__credentials-list {
     margin-top: 2em; }
-  .hraztan__credentials-list button {
-    opacity: .6; }
-    .hraztan__credentials-list button:hover {
-      opacity: 1; }
+    @media screen and (max-width: 479px) {
+      .hraztan__credentials-content, .hraztan__credentials-list {
+        margin-top: 10px; } }
+  .hraztan__credentials-list {
+    padding-top: 1.5em; }
+    .hraztan__credentials-list button {
+      opacity: .6;
+      position: relative; }
+      .hraztan__credentials-list button:hover {
+        opacity: 1; }
   .hraztan__credential-detail {
     display: none; }
     .hraztan__credential-detail.is-active-credential-detail {
       display: block;
       border-top: 1px solid white;
-      padding-top: 1.5em; }
+      border-bottom: 1px solid white;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em; }
   .hraztan .is-active-credential-variant {
     opacity: 1; }
 

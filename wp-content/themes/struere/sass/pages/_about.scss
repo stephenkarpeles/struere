@@ -228,17 +228,69 @@
     }
   }
 
+  &__credentials-col-wrap {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    height: 500px;
+    overflow: auto;
+
+    // background-image: linear-gradient(
+    //   rgba(255, 255, 255, 0.0) 0%,
+    //   rgba(255, 255, 255, 0.0) 90%,
+    //   rgba(255, 255, 255, 0.1) 92%,
+    //   rgba(255, 255, 255, 0.2)  94%,
+    //   rgba(255, 255, 255, 0.3)  98%,
+    //   rgba(255, 255, 255, 0.4)  100%
+    // );
+
+    @include mq(ipad, 'max-width') {
+      flex-direction: column;
+    }
+
+    p {
+      font-size: 15px;
+      padding-bottom: .75rem;
+      line-height: 18px;
+    }
+
+    .one-half {
+      width: 50%;
+      padding-left: 10px;
+
+      @include mq(ipad, 'max-width') {
+        width: 100%;
+        padding-left: 0;
+      }
+
+      &.first {
+        padding-right: 20px;
+        padding-left: 0;
+
+        @include mq(ipad, 'max-width') {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
   &__credentials-content {
     column-count: 1;
   }
 
   &__credentials-list {
+    @include mq(mobile-landscape, 'max-width') {
+      margin-bottom: 10px;
+    }
+
     button {
       -webkit-appearance: none;
       -moz-appearance: none;
       appearance: none;
       outline: none;
       text-align: left;
+      width: 100%;
       cursor: pointer;
 
       display: block;
@@ -246,7 +298,7 @@
       border: none;
       background: transparent;
       font-weight: 700;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
       padding: 0;
       font-size: 15px;
       text-transform: uppercase;
@@ -255,17 +307,33 @@
       &:hover {
         opacity: .8;
       }
+
+      @include mq(tablet, 'max-width') {
+        padding-right: 10px;
+        font-size: 14px;
+      }
+
+      @include mq(mobile-landscape, 'max-width') {
+        margin-bottom: 10px;
+      }
     }
   }
 
   &__credentials-content,
   &__credentials-list {
     margin-top: 2em;
+
+    @include mq(mobile-landscape, 'max-width') {
+      margin-top: 10px;
+    }
   }
 
   &__credentials-list {
+    padding-top: 1.5em;
+
     button {
       opacity: .6;
+      position: relative;
 
       &:hover {
         opacity: 1;
@@ -279,7 +347,9 @@
     &.is-active-credential-detail {
       display: block;
       border-top: 1px solid white;
+      border-bottom: 1px solid white;
       padding-top: 1.5em;
+      padding-bottom: 1.5em;
     }
   }
 
