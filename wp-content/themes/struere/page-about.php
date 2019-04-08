@@ -229,7 +229,8 @@ get_header();
               <p><a href="http://archweekpeopleandplaces.blogspot.com/2013/03/leo-daly-in-los-angeles-california.html#more">http://archweekpeopleandplaces.blogspot.com/2013/03/leo-daly-in-los-angeles-california.html#more</a></p>
               <p>– 05/30/2012 The Architects Newspaper. Unveiled Broad Stage Expansion. Article by Sam Lubell on SMC PAC East Wing.</p>
               <p><a href="http://archpaper.com/news/articles.asp?id=6001">http://archpaper.com/news/articles.asp?id=6001</a></p>
-              <p>&nbsp;</p>
+              <br>
+              <br>              
               <p><strong>Select Authored Publications</strong></p>
               <p>06/2008 Form. The New Library. Authored Article on the library of the 21st Century.</p>
               <p>10/2007 ArcCA. Presentation is Everything. Co-authored Article on Design Awards programs.</p>
@@ -247,34 +248,32 @@ get_header();
               on SMC PAC East Wing by Adrian Glick Kudler. <a href="http://la.curbed.com/archives/2012/04/santa_monica_college_expanding_its_glassy_broad_stage.php">http://la.curbed.com/archives/2012/04/</a><br>
               <a href="http://la.curbed.com/archives/2012/04/santa_monica_college_expanding_its_glassy_broad_stage.php"> santa_monica_college_expanding_its_glassy_broad_stage.php</a></p>
               <p>04/18/2012 Los Angeles Times. Broad Stage will get a $12.3-million neighbor in Santa Monica.<br>
-              Article on SMC PAC East Wing by David Ng. <a href="http://www.latimes.com/entertainment/news/la-et-broad- news-20120418,0,2499687.story">http://www.latimes.com/entertainment/news/la-et-broad-</a><br>
-              <a href="http://www.latimes.com/entertainment/news/la-et-broad- news-20120418,0,2499687.story"> news-20120418,0,2499687.story</a></p>
+              Article on SMC PAC East Wing by David Ng. <a href="http://www.latimes.com/entertainment/news/la-et-broad-news-20120418,0,2499687.story">http://www.latimes.com/entertainment/news/la-et-broad-</a><br>
+              <a href="http://www.latimes.com/entertainment/news/la-et-broad-news-20120418,0,2499687.story"> news-20120418,0,2499687.story</a></p>
               <p>02/01/2012 AZoBuilding. Burbank Water and Power unveil(s) EcoCampus. Article by Joel Scanlon.<br>
               <a href="http://www.azobuild.com/news.asp?newsID=14873">http://www.azobuild.com/news.asp?newsID=14873</a></p>
               <p>01/31/2012 Treehugger. California Utility opens first sustainable campus as model utility site.<br>
-              Article by Roberta Cruger. Hraztan Zeitlian quoted. <a href="http://www.treehugger.com/infrastructure/ california-utility-opens-first-sustainable-campus-model-utility-site.html">http://www.treehugger.com/infrastructure/</a><br>
-              <a href="http://www.treehugger.com/infrastructure/ california-utility-opens-first-sustainable-campus-model-utility-site.html"> california-utility-opens-first-sustainable-campus-model-utility-site.html</a></p>
+              Article by Roberta Cruger. Hraztan Zeitlian quoted. <a href="http://www.treehugger.com/infrastructure/california-utility-opens-first-sustainable-campus-model-utility-site.html">http://www.treehugger.com/infrastructure/</a><br>
+              <a href="http://www.treehugger.com/infrastructure/california-utility-opens-first-sustainable-campus-model-utility-site.html"> california-utility-opens-first-sustainable-campus-model-utility-site.html</a></p>
               <p>01/30/2012 Inhabitat. Old Burbank Water Facility Transformed into Californias First Sustainable<br>
-              Utility EcoCampus. Article by Helen Morgan. <a href="http://inhabitat.com/old-burbank-water-facility- transformed-into-californias-first-sustainable-utility-ecocampus/">http://inhabitat.com/old-burbank-water-facility-</a><br>
-              <a href="http://inhabitat.com/old-burbank-water-facility- transformed-into-californias-first-sustainable-utility-ecocampus/"> transformed-into-californias-first-sustainable-utility-ecocampus/</a></p>
+              Utility EcoCampus. Article by Helen Morgan. <a href="http://inhabitat.com/old-burbank-water-facility-transformed-into-californias-first-sustainable-utility-ecocampus/">http://inhabitat.com/old-burbank-water-facility-</a><br>
+              <a href="http://inhabitat.com/old-burbank-water-facility-transformed-into-californias-first-sustainable-utility-ecocampus/"> transformed-into-californias-first-sustainable-utility-ecocampus/</a></p>
               <p>01/26/2012 CurbedLA. Burbank Water and Power greening up its old substations.<br>
-              Article by Adrian Glick Kudler. <a href="http://la.curbed.com/archives/2012/01/ burbank_water_and_power_greening_up_its_old_substations.php">http://la.curbed.com/archives/2012/01/</a><br>
-              <a href="http://la.curbed.com/archives/2012/01/ burbank_water_and_power_greening_up_its_old_substations.php"> burbank_water_and_power_greening_up_its_old_substations.php</a></p>
+              Article by Adrian Glick Kudler. <a href="http://la.curbed.com/archives/2012/01/burbank_water_and_power_greening_up_its_old_substations.php">http://la.curbed.com/archives/2012/01/</a><br>
+              <a href="http://la.curbed.com/archives/2012/01/burbank_water_and_power_greening_up_its_old_substations.php"> burbank_water_and_power_greening_up_its_old_substations.php</a></p>
               <p>01/26/2012 Curating Los Angeles. Come celebrate Californias first sustainable tility campus. Article<br>
-              by Jim Gilbert. <a href="http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first- sustainable-utility-campus.html">http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first-</a><br>
-              <a href="http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first- sustainable-utility-campus.html"> sustainable-utility-campus.html</a></p>
+              by Jim Gilbert. <a href="http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first-sustainable-utility-campus.html">http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first-</a><br>
+              <a href="http://www.curatingla.com/blog-index/2012/1/26/come-celebrate-californias-first-sustainable-utility-campus.html"> sustainable-utility-campus.html</a></p>
               <p>12/16/2011 Santa Monica Daily Press. Design for SMCs Performing Arts Campus honored. News<br>
-              Article on the occasion of SMC PAC East Wing receiving an SCDF Design Award. <a href="http://www.smdp.com/ Articles-local-news-c-2011-12-16-73145.113116-Design-for-SMCs-performing-arts-campus- honored.html">http://www.smdp.com/</a><br>
-              <a href="http://www.smdp.com/ Articles-local-news-c-2011-12-16-73145.113116-Design-for-SMCs-performing-arts-campus- honored.html"> Articles-local-news-c-2011-12-16-73145.113116-Design-for-SMCs-performing-arts-campus-</a><br>
-              <a href="http://www.smdp.com/ Articles-local-news-c-2011-12-16-73145.113116-Design-for-SMCs-performing-arts-campus- honored.html"> honored.html</a></p>
+              Article on the occasion of SMC PAC East Wing receiving an SCDF Design Award.</p>
               <p>12/5/2011 Engineering News-Record (ENR). LAUSD SRES2 featured under Best Projects Winners<br>
               Section.</p>
               <p>10/17/2011 Inhabitat. Eye Popping rainbow school brightens up a rundown community in Los<br>
-              Angeles. Article by Tafline Laylin. <a href="http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a- rundown-community-in-los-angeles/">http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a-</a><br>
-              <a href="http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a- rundown-community-in-los-angeles/"> rundown-community-in-los-angeles/</a></p>
+              Angeles. Article by Tafline Laylin. <a href="http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a-rundown-community-in-los-angeles/">http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a-</a><br>
+              <a href="http://inhabitat.com/eye-popping-rainbow-school-brightens-up-a-rundown-community-in-los-angeles/"> rundown-community-in-los-angeles/</a></p>
               <p>10/14/2011 World Architecture News. School addresses needs of the community and<br>
-              inspires creativity in students. Article. <a href="http://www.worldarchitecturenews.com/index.php? fuseaction=wanappln.projectview&amp;upload_id=17776">http://www.worldarchitecturenews.com/index.php?</a><br>
-              <a href="http://www.worldarchitecturenews.com/index.php? fuseaction=wanappln.projectview&amp;upload_id=17776"> fuseaction=wanappln.projectview&amp;upload_id=17776</a></p>
+              inspires creativity in students. Article. <a href="http://www.worldarchitecturenews.com/index.php?fuseaction=wanappln.projectview&upload_id=17776">http://www.worldarchitecturenews.com/index.php?</a><br>
+              <a href="http://www.worldarchitecturenews.com/index.php?fuseaction=wanappln.projectview&upload_id=17776"> fuseaction=wanappln.projectview&upload_id=17776</a></p>
               <p>9–10/2011 Form. Article on LAUSD SRES2.</p>
               <p>04/2011 PROAV National Magazine. Hraztan Zeitlian quoted in Article Meet your future partner by<br>
               Craig Park.</p>
@@ -287,7 +286,7 @@ get_header();
               <p>03/7/2011 Los Angeles Business Journal. Hraztan Zeitlian quoted in Question of the Week section<br>
               about the market for qualified employees.</p>
               <p>10/15/2010 Brentwood News. University Synagogue undergoes renovation. Article by Alison<br>
-              Graham. <a href="http://www.westsidetoday.com/n3419/university-synagogue-undergoes-renovations.html">http://www.westsidetoday.com/n3419/university-synagogue-undergoes-renovations.html</a></p>
+              Graham.</p>
               <p>10/19/2009 Los Angeles Business Journal. Hraztan Zeitlian photographed in LA BIZ Seen section.</p>
               <p>10/06/2009 Architect. Now in 3D. Article by Nate Berg about Hologram technology quotes Hraztan<br>
               Zeitlian.</p>
@@ -304,16 +303,15 @@ get_header();
               <p>03/09/2009 Engineering News-Record (ENR). Best of the best 2008. Cover story includes Hraztan<br>
               Zeitlian biography as juror.</p>
               <p>02/13/2009 AIArchitect This Week. A New Breed of Bomb Squad Building. Article by Russell<br>
-              Boniface, Associate Editor, about LA Metro Bomb Squad project. <a href="http://info.aia.org/aiarchitect/ thisweek09/0213/0213d_bomb.cfm">http://info.aia.org/aiarchitect/</a><br>
-              <a href="http://info.aia.org/aiarchitect/ thisweek09/0213/0213d_bomb.cfm"> thisweek09/0213/0213d_bomb.cfm</a></p>
+              Boniface, Associate Editor, about LA Metro Bomb Squad project.</p>
               <p>Winter/Spring 2009 California Architects. Hraztan Zeitlian appointment to CA Architects Board<br>
               highlighted in New Board Members and Reappointments Section.</p>
               <p>Winter 2009 Maingate. Hraztan Zeitlian appointment to CA Architects Board highlighted in Class Notes<br>
               Section.</p>
               <p>Winter 2009 <a href="http://wwwlb.aub.edu.lb/~webmgate/winter2009/notes.htm">http://wwwlb.aub.edu.lb/~webmgate/winter2009/notes.htm</a></p>
               <p>11/24/2008 The Architects newspaper. AN Blog. Write up about AIA LA Design Dialogues event,<br>
-              featuring LAUSD SRHS9. <a href="http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more- 742">http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more-</a><br>
-              <a href="http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more- 742"> 742</a></p>
+              featuring LAUSD SRHS9. <a href="http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more-742">http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more-</a><br>
+              <a href="http://blog.archpaper.com/wordpress/2008/11/24/getting-schooled/#more-742"> 742</a></p>
               <p>09/24/2008 The Architects Newspaper. A New Start. Front Page Article by Sam Lubell on LAUSD<br>
               Edward R. Roybal Learning Center.</p>
               <p>09/21/2008 Los Angeles Times. A Legacy Lives on in Buildings across the City. California Section<br>
@@ -339,12 +337,11 @@ get_header();
               <p>12/26/2007 Santa Monica Daily Press. On the rise: SMC remakes its image with flair. Front page<br>
               article by Melody Hanatani features quote from Hraztan Zeitlian on LAD Theatre Arts Bldg.</p>
               <p>12/2007 Prestige. Hraztan Zeitlian Interview focused on Praha.</p>
-              <p>11/2007 Contract. Nox featured in Outdoor Furniture Section. <a href="http://www.contractconnected.com/ 1107/">http://www.contractconnected.com/</a><br>
-              <a href="http://www.contractconnected.com/ 1107/"> 1107/</a></p>
+              <p>11/2007 Contract. Nox featured in Outdoor Furniture Section.</p>
               <p>11/2007 LARCA. Agora dreams and visons. Article by Maurizio Vitta on Struere work. Section on<br>
               Struere featuring Hilal, Fluxform, Ripple, Multiplex Prototypes projects.</p>
               <p>11/24/2007 LE MONITEUR. News item on Praha Project. <a href="http://www.lemoniteur-expert.com/actualite/ architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm">http://www.lemoniteur-expert.com/actualite/</a><br>
-              <a href="http://www.lemoniteur-expert.com/actualite/ architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm"> architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm</a></p>
+              <a href="http://www.lemoniteur-expert.com/actualite/architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm"> architecture_maitrise_oeuvre/projet_remarque_tour_babel_xxie/D575C173D.htm</a></p>
               <p>11/12/2007 Los Angeles Business Journal. Architects dallying is drawing attention. Article by Daniel<br>
               Miller about Hraztan Zeitlian and Leo A Daly Los Angeles.</p>
               <p>11/12/2007 Contract Design. NOX featured in Resources Section.</p>  
@@ -352,19 +349,19 @@ get_header();
               <p>09/10/2007 Form. Praha featured in AIA LA Next LA Awards Section.</p>
               <p>09/07/2007 AIA National Website news item featuring Hilal. <a href="http://www.aia.org/aiarchitect/ thisweek07/0907/0907b_global.cfm">http://www.aia.org/aiarchitect/</a><br>
               <a href="http://www.aia.org/aiarchitect/ thisweek07/0907/0907b_global.cfm"> thisweek07/0907/0907b_global.cfm</a></p>
-              <p>09/02/2007 BLINMISERY Blog. News item on Praha Project. <a href="http://www.blinmisery.com/index.php? option=com_content&amp;task=view&amp;id=97&amp;Itemid=78">http://www.blinmisery.com/index.php?</a><br>
-              <a href="http://www.blinmisery.com/index.php? option=com_content&amp;task=view&amp;id=97&amp;Itemid=78"> option=com_content&amp;task=view&amp;id=97&amp;Itemid=78</a></p>
+              <p>09/02/2007 BLINMISERY Blog. News item on Praha Project. <a href="http://www.blinmisery.com/index.php? option=com_content&task=view&id=97&Itemid=78">http://www.blinmisery.com/index.php?</a><br>
+              <a href="http://www.blinmisery.com/index.php?option=com_content&task=view&id=97&Itemid=78"> option=com_content&task=view&id=97&Itemid=78</a></p>
               <p>09/01/2007 Hospitality Design. Pleasure Palaces: The Art of Spa Design. Article by Jo Ann Greco,<br>
               Rebecca Lo, Rachel Long, Jana Shiowitz and Stacy Shoemaker Raven features Hotel Bel Air Spa.</p>
               <p>08/01/2007 Entree. Article by William Tomicki on Hotel Bel Air Spa</p>
               <p>07/21/2007 The Armenian Reporter. A 21st Century Tower of Babel. Article on Praha Project.</p>
               <p>07/19/2007 Article on Hraztan Zeitlian appointment to Leo A Daly as VP and Director of Design.<br>
-              <a href="http:/ /www.dexigner.com/architecture/news-g11482.html">http:/</a><a href="http:/ /www.dexigner.com/architecture/news-g11482.html">/www.dexigner.com/architecture/news-g11482.html</a></p>          
+              <a href="http://www.dexigner.com/architecture/news-g11482.html">http:/</a><a href="http://www.dexigner.com/architecture/news-g11482.html">/www.dexigner.com/architecture/news-g11482.html</a></p>          
               <p>07/02/2006 LA Downtown News. Open the Miguel Contreras Pool. Editorial.</p> 
               <p>06/28/2007 Los Angeles Times. Praha AIA Next LA Award mentioned in Home Section.</p>
               <p>03/2007 MARK. Hilal featured in Notice Board Whats Happening Section.</p>
-              <p>02/2007 DOMUS. News item on Hilal Project. <a href="http://www.domusweb.it/domus2k6/source/contents/ item.cfm?type=NWS&amp;ID=65942">http://www.domusweb.it/domus2k6/source/contents/</a><br>
-              <a href="http://www.domusweb.it/domus2k6/source/contents/ item.cfm?type=NWS&amp;ID=65942"> item.cfm?type=NWS&amp;ID=65942</a></p>
+              <p>02/2007 DOMUS. News item on Hilal Project. <a href="http://www.domusweb.it/domus2k6/source/contents/item.cfm?type=NWS&ID=65942">http://www.domusweb.it/domus2k6/source/contents/</a><br>
+              <a href="http://www.domusweb.it/domus2k6/source/contents/item.cfm?type=NWS&ID=65942"> item.cfm?type=NWS&ID=65942</a></p>
             </div>
             <div class="one-half">      
               
@@ -383,11 +380,10 @@ get_header();
               <p>11/02/2006 The Desert Sun. Vision for Student Center unveiled. Article by Michelle Mitchelle on<br>
               College of the Desert Student Center.</p>
               <p>10/2006 Glass Magazine. Nox Table featured in Industry Products Section.</p>
-              <p>10/20/2006 AIA National Website news item on American Architecture Awards featuring Hilal. <a href="http:// www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm">http://</a><br>
-              <a href="http:// www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm"> www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm</a></p>
+              <p>10/20/2006 AIA National Website news item on American Architecture Awards featuring Hilal. <a href="http://www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm">http://</a><br>
+              <a href="http://www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm"> www.aia.org/aiarchitect/thisweek06/1020/1020d_arch.cfm</a></p>
               <p>10/06/2006 ZATIK Blog. News item on Hilal Project. <a href="http://www.zatik.com/newsvis.asp?id=820">http://www.zatik.com/newsvis.asp?id=820</a></p>
-              <p>10/04/2006 AZAD-HYE Blog. News item on Hilal Project. <a href="http://www.azad-hye.net/news/ viewnews.asp?newd=245">http://www.azad-hye.net/news/</a><br>
-              <a href="http://www.azad-hye.net/news/ viewnews.asp?newd=245"> viewnews.asp?newd=245</a></p>
+              <p>10/04/2006 AZAD-HYE Blog. News item on Hilal Project.</p>
               <p>09/15/2006 Los Angeles Times. School Reflects a Labor of Love. California Section Article by Joe<br>
               Mathews on opening of LAUSD Miguel Contreras Learning Complex</p>
               <p>07/28/2006 The Desert Sun. Big Plans ahead for future Indio Teen Center. Article by David Woodfill.</p>
@@ -430,9 +426,9 @@ get_header();
               Arclight Cinerama Dome.</p>
               <p>03/2002 Interiors &amp; Sources. Article by Victoria Hyla on Monrovia Cinema 12.</p>
               <p>2002 Los Angeles Times front page Article on LAUSD Miguel Contreras Learning<br>
-              Complex by Solomon Moore. <a href="http://adserver.trb.com/html.ng/ site=latimes&amp;channel=popups&amp;adtype=popwindow&amp;adplacement=2">http://adserver.trb.com/html.ng/</a><br>
-              <a href="http://adserver.trb.com/html.ng/ site=latimes&amp;channel=popups&amp;adtype=popwindow&amp;adplacement=2"> site=latimes&amp;channel=popups&amp;adtype=popwindow&amp;adplacement=2</a></p>
-              <p>2002 Article on Monrovia Cinema 12. <a href="http://www.isdesignet.com/Magazine/Mar02/greatdesign10.html">www.isdesignet.com/Magazine/Mar02/greatdesign10.html</a></p>
+              Complex by Solomon Moore. <a href="http://adserver.trb.com/html.ng/site=latimes&channel=popups&adtype=popwindow&adplacement=2">http://adserver.trb.com/html.ng/</a><br>
+              <a href="http://adserver.trb.com/html.ng/site=latimes&channel=popups&adtype=popwindow&adplacement=2"> site=latimes&channel=popups&adtype=popwindow&adplacement=2</a></p>
+              <p>2002 Article on Monrovia Cinema 12.</p>
               <p>2001 Cinema Builders. Book by Edwin Heathcote featuring AMC Nakama. [W Sussex, UK: Wiley-<br>
               Academy].</p>
               <p>2001 Gensler Entertainment: The Art of Placemaking. Book edited by Anthony Ianacci. [New York:<br>
@@ -441,8 +437,8 @@ get_header();
               <p>04/2001 Matter. Editorial article on Monrovia Cinema 12.</p>
               <p>01/2001 EntertainingPlaces. A new spin on retail. Cover photo and article by Jon McLoud on Irvine<br>
               Entertainment Center.</p>
-              <p>2000 Article on Valencia Town Center Drive project. <a href="www.enn.com:80/features/2000/10/10042000/ Mainstreet_14752">www.enn.com:80/features/2000/10/10042000/</a><br>
-              <a href="www.enn.com:80/features/2000/10/10042000/ Mainstreet_14752"> Mainstreet_14752</a></p>
+              <p>2000 Article on Valencia Town Center Drive project. <a href="www.enn.com:80/features/2000/10/10042000/Mainstreet_14752">www.enn.com:80/features/2000/10/10042000/</a><br>
+              <a href="www.enn.com:80/features/2000/10/10042000/Mainstreet_14752"> Mainstreet_14752</a></p>
               <p>05/2000 Architectural Record. AMC Nakama image published as part of Gensler Entertainment<br>
               portfolio.</p>
               <p>05/2000 National Real Estate Investor. Article on Irvine Entertainment Center, Phase II. [Atlanta, GA:<br>
@@ -450,8 +446,7 @@ get_header();
               <p>05/23/2000 Los Angeles Times. Faith in Angel Monument teeters off its pedestal. Article by Jesus<br>
               Sanchez.</p>
               <p>04/2000 Architectural Lighting. Under the bridge. Article by Christina Trauthwein on AMC Nakama.</p>
-              <p>04/2000 Article on Nakama from Contract Design. <a href="http://www.gensler.com/entertainment/ nakama_complete.htm">www.gensler.com/entertainment/</a><br>
-              <a href="www.gensler.com/entertainment/ nakama_complete.htm"> nakama_complete.htm</a></p>
+              <p>04/2000 Article on Nakama from Contract Design.</p>
               <p>04/12/2000 The Orange County Register. Spectrum Center is playing to a packed House. Article by<br>
               Greg Hardesty on Irvine Entertainment Center, Phase II.</p>
               <p>02/2000 LA Architect. Out-trumping Trump. Article by Michael Webb on City of Angels Monument.</p>        
@@ -473,13 +468,11 @@ get_header();
               Rasmussen mentions City of Angels Monument.</p>
               <p>06/1999 Interiors. Trailer Parks. Article by Eve Kahn on AMC Nakama.</p>
               <p>06/1999 Article on City of Angels Monument. <a href="http://www.dailybreeze.com/content/bog/nmbbogert19.html">www.dailybreeze.com/content/bog/nmbbogert19.html</a></p>
-              <p>06/1999 Article on City of Angels Monument. <a href="www.abcnews.go.com/local/kabc/news/ 21266_12221998.html">www.abcnews.go.com/local/kabc/news/</a><br>
-              <a href="http://www.abcnews.go.com/local/kabc/news/ 21266_12221998.html"> 21266_12221998.html</a></p>
-              <p>06/1999 Site mentions City of Angels Monument Tower. <a href="http://www.worldstallest.com/44-9901.html#Angels">www.worldstallest.com/44-9901.html#Angels</a></p>
-              <p>06/1999 Architecture Book Review. <a href="http://www.saed.kent.edu/Architronic/v2n1.11b.html Semiotext(e)/">www.saed.kent.edu/Architronic/v2n1.11b.html Semiotext(e)/</a></p>
-              <p>06/1999 Architecture brief description and link. <a href="http://www.falcon.cc.ukans.edu/~mlodwick/ Semiotext(e)/">www.falcon.cc.ukans.edu/~mlodwick/ Semiotext(e)/</a></p>
-              <p>06/1999 Architecture link. <a href="http://www.televr.fou.telenor.no/cyberconf/biographies/stonebio.html Semiotext(e)/">www.televr.fou.telenor.no/cyberconf/biographies/stonebio.html</a><br>
-              <a href="www.televr.fou.telenor.no/cyberconf/biographies/stonebio.html Semiotext(e)/"> Semiotext(e)/</a></p>
+              <p>06/1999 Article on City of Angels Monument.</p>
+              <p>06/1999 Site mentions City of Angels Monument Tower.</p>
+              <p>06/1999 Architecture Book Review. <a href="http://www.saed.kent.edu/Architronic/v2n1.11b.html/">www.saed.kent.edu/Architronic/v2n1.11b.html Semiotext(e)/</a></p>
+              <p>06/1999 Architecture brief description and link. <a href="http://www.falcon.cc.ukans.edu/~mlodwick//">www.falcon.cc.ukans.edu/~mlodwick/ Semiotext(e)/</a></p>
+              <p>06/1999 Architecture link.</p>
               <p>06/17/1999 Los Angeles Times. A towering achievement is in the works Downtown.<br>
               by Bob Pool on City of Angels Monument.</p>
               <p>05/17/1999 Los Angeles Business Journal. Once-dismissed downtown tower may become reality.<br>
@@ -599,7 +592,7 @@ get_header();
               <p>07/2014 Edward R Roybal Learning Center is setting for VW GTI TV AD during World Cup with Michael Ballack on ESPN.</p>
               <p><a href="http://www.ispot.tv/ad/7Dvt/2014-volkswagen-golf-gti-greatest-hits-featuring-michael-ballack">http://www.ispot.tv/ad/7Dvt/2014-volkswagen-golf-gti-greatest-hits-featuring-michael-ballack</a></p>
               <p>07/24/2011 University Synagogue featured as backdrop in Curb Your Enthusiasm on HBO TV.</p>
-              <p><a href="http://www.youtube.com/watch?v=nIXd-h8YeUc&amp;feature=related">http://www.youtube.com/watch?v=nIXd-h8YeUc&amp;feature=related</a></p>
+              <p><a href="http://www.youtube.com/watch?v=nIXd-h8YeUc&feature=related">http://www.youtube.com/watch?v=nIXd-h8YeUc&feature=related</a></p>
             </div>
             <div class="one-half">              
               <p>07/2009 LAUSD Miguel Contreras featured as backdrop in Mastercard Priceless TV AD.</p>
@@ -616,7 +609,7 @@ get_header();
         <div class="hraztan__credential-detail" data-variant-content="6">
           <div class="hraztan__credentials-col-wrap">
             <div class="one-half first">
-              <p>2015-Present AIA CC Monterey Design Conference board.</p>
+              <p>2015-2017 AIA CC Monterey Design Conference board.</p>
               <p>01/01/2012-14 AIA CC Design Awards Committee.</p>
               <p>08/201002/06/2012 Los Angeles Business Council. Board Member.</p>
               <p>2007-Present Los Angeles Business Council. Legislative Committee Member.</p>

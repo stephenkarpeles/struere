@@ -261,16 +261,17 @@ function project_taxonomies() {
  * Add taxonomy name to body class
  */
 
-function add_taxonomy_to_single( $classes ) {
-  if ( is_single() ) {
+function section_taxonomy_in_body_class( $classes ){
+  if( is_singular() )
+  {
     global $post;
-    $my_terms = get_the_terms( $post->ID, 'project-category' );
-    if ( $my_terms && ! is_wp_error( $my_terms ) ) {
-        foreach ($my_terms as $term) {
-            $classes[] = 'single-project-' . $term->slug;
-        }
+    $custom_terms = get_the_terms($post->ID, 'project-category');
+    if ($custom_terms) {
+      foreach ($custom_terms as $custom_term) {
+        $classes[] = 'single-project-' . $custom_term->slug;
+      }
     }
-    return $classes;
   }
+  return $classes;
 }
-add_filter( 'body_class', 'add_taxonomy_to_single' );
+add_filter( 'body_class', 'section_taxonomy_in_body_class' );

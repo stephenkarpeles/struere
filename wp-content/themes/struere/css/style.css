@@ -501,7 +501,7 @@ em {
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 500px;
+    height: 380px;
     overflow: auto; }
     @media screen and (max-width: 767px) {
       .hraztan__credentials-col-wrap {
@@ -546,7 +546,7 @@ em {
     margin-bottom: 15px;
     padding: 0;
     font-size: 15px;
-    text-transform: uppercase;
+    text-transform: none;
     transition: all .15s ease; }
     .hraztan__credentials-list button:hover {
       opacity: .8; }
@@ -574,7 +574,6 @@ em {
     .hraztan__credential-detail.is-active-credential-detail {
       display: block;
       border-top: 1px solid white;
-      border-bottom: 1px solid white;
       padding-top: 1.5em;
       padding-bottom: 1.5em; }
   .hraztan .is-active-credential-variant {
@@ -1061,15 +1060,15 @@ em {
     .single-project-civic .project-post-wrap__bg {
       background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
     .single-project-commercial .project-post-wrap__bg {
-      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/uploads/2019/03/01-2017-03-12-321-Coral-2puntoSero-005-w-Hraztan-touch.jpg"); }
     .single-project-education .project-post-wrap__bg {
-      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/uploads/2019/03/1-WLAC-46663.jpg"); }
     .single-project-hospitality .project-post-wrap__bg {
-      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/uploads/2019/04/1.jpg"); }
     .single-project-interiors .project-post-wrap__bg {
-      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/uploads/2019/04/1-_AVANCES_1.jpg"); }
     .single-project-residential .project-post-wrap__bg {
-      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/themes/struere/img/banners/banner2.jpg"); }
+      background-image: url("http://stephenkarpeles.com/staging/struere/wp-content/uploads/2019/04/03-2018-02-12-3700-Riverside-B7-cropped-FINALE.jpg"); }
     .project-post-wrap__bg:after {
       position: absolute;
       z-index: 500;
